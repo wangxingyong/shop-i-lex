@@ -22,7 +22,7 @@ $_['entry_position']       = '位置:';
 $_['entry_status']         = '状态:';
 $_['entry_sort_order']     = '排序:';
 $_['entry_show_on_product'] = '显示在产品(product/product)布局:';
-
+$_['entry_count']          = '显示数目:';
 // Error 
 $_['error_permission']    = 'Warning: You do not have permission to modify module featured!';
 $_['error_image']         = 'Image width &amp; height dimensions required!';
