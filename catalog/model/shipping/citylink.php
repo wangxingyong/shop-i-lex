@@ -3,12 +3,17 @@ class ModelShippingCitylink extends Model {
 	function getQuote($address) {
 		$this->load->language('shipping/citylink');
 		
-		if ($this->config->get('citylink_zone_id')==(int)$address['zone_id']&&$this->config->get('citylink_city_id')==(int)$address['city_id']) {
-			$status = true;
-		} else {
+		// if you dun setting zone and city for citylink, if would not work. 
+		if(isset($this->config->get('citylink_zone_id'))&&$this->config->get('citylink_city_id')){
+			if ($this->config->get('citylink_zone_id')==(int)$address['zone_id']&&$this->config->get('citylink_city_id')==(int)$address['city_id']) {
+				$status = true;
+			} else {
+				$status = false;
+			}
+		}else{
 			$status = false;
 		}
-
+		
 		$method_data = array();
 	
 		if ($status) {
