@@ -32,7 +32,21 @@ class ModelLocalisationCity extends Model {
 	}
 	
 	public function getCities($data = array()) {
-		$sql = "SELECT * FROM " . DB_PREFIX . "v_city";
+		$sql = "SELECT * FROM (
+		SELECT `a`.`city_id` AS `city_id`
+		     , `a`.`zone_id` AS `city_zone_id`
+		     , `b`.`name` AS `city_zone`
+		     , `a`.`name` AS `city_name`
+		     , `a`.`code` AS `city_code`
+		     , `b`.`country_id` AS `city_country_id`
+		     , `c`.`name` AS `city_country`
+		     , `a`.`status` AS `city_status`
+			FROM ((`" . DB_PREFIX . "city` `a`
+			LEFT JOIN `" . DB_PREFIX . "zone` `b`
+			ON ((`a`.`zone_id` = `b`.`zone_id`)))
+			LEFT JOIN `" . DB_PREFIX . "country` `c`
+			ON ((`b`.`country_id` = `c`.`country_id`)))
+			) AS v_city";
 
 		$implode = array();
 		
@@ -113,7 +127,21 @@ class ModelLocalisationCity extends Model {
 	}
 
 	public function getTotalCities($data = array()) {
-      	$sql = "SELECT COUNT(*) AS total FROM " . DB_PREFIX . "v_city";
+      	$sql = "SELECT COUNT(*) AS total FROM (
+			SELECT `a`.`city_id` AS `city_id`
+		     , `a`.`zone_id` AS `city_zone_id`
+		     , `b`.`name` AS `city_zone`
+		     , `a`.`name` AS `city_name`
+		     , `a`.`code` AS `city_code`
+		     , `b`.`country_id` AS `city_country_id`
+		     , `c`.`name` AS `city_country`
+		     , `a`.`status` AS `city_status`
+			FROM ((`" . DB_PREFIX . "city` `a`
+			LEFT JOIN `" . DB_PREFIX . "zone` `b`
+			ON ((`a`.`zone_id` = `b`.`zone_id`)))
+			LEFT JOIN `" . DB_PREFIX . "country` `c`
+			ON ((`b`.`country_id` = `c`.`country_id`)))
+			) AS v_city";
 		
 		$implode = array();
 

@@ -23,9 +23,7 @@ class ModelInstall extends Model {
 						$query = str_replace("DROP TABLE IF EXISTS `si_", "DROP TABLE IF EXISTS `" . $data['db_prefix'], $query);
 						$query = str_replace("CREATE TABLE `si_", "CREATE TABLE `" . $data['db_prefix'], $query);
 						$query = str_replace("INSERT INTO `si_", "INSERT INTO `" . $data['db_prefix'], $query);
-						$query = str_replace("FROM ((`si_", "FROM ((`" . $data['db_prefix'], $query);
-						$query = str_replace("LEFT JOIN `si_", "LEFT JOIN `" . $data['db_prefix'], $query);
-						
+											
 						$result = mysql_query($query, $connection);
   
 						if (!$result) {

@@ -2526,22 +2526,3 @@ INSERT INTO `si_zone` VALUES (716,44,'QH','青海省',1);
 INSERT INTO `si_zone` VALUES (717,44,'XZ','西藏自治区',1);
 
 
-DROP VIEW IF EXISTS `v_city`;
---
--- Create view `v_city`
---
-CREATE VIEW v_city
-AS
-SELECT `a`.`city_id` AS `city_id`
-     , `a`.`zone_id` AS `city_zone_id`
-     , `b`.`name` AS `city_zone`
-     , `a`.`name` AS `city_name`
-     , `a`.`code` AS `city_code`
-     , `b`.`country_id` AS `city_country_id`
-     , `c`.`name` AS `city_country`
-     , `a`.`status` AS `city_status`
-FROM ((`si_city` `a`
-LEFT JOIN `si_zone` `b`
-ON ((`a`.`zone_id` = `b`.`zone_id`)))
-LEFT JOIN `si_country` `c`
-ON ((`b`.`country_id` = `c`.`country_id`)));
