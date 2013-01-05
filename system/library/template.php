@@ -4,7 +4,7 @@ final class Template {
 	
 	public function fetch($filename) {
 		$file = DIR_TEMPLATE . $filename;
-    	global $vupgrade; $file = $vupgrade->vPath($file);
+    	
 		if (file_exists($file)) {
 			extract($this->data);
 			
