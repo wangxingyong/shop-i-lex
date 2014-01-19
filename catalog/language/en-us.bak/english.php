@@ -1,10 +1,10 @@
 <?php
 
 // Locale
-$_['code']                  = 'cn';
+$_['code']                  = 'en';
 $_['charset']               = 'utf-8';
 $_['direction']             = 'ltr';
-$_['locale']                = 'zh,zh-hk,zh-cn,zh-cn.UTF-8,cn-gb,chinese';
+$_['locale']                = 'en,en_US.UTF-8,en_US,en-gb,english';
 $_['date_format_short']     = 'd/m/Y';
 $_['date_format_long']      = 'l dS F Y';
 $_['time_format']           = 'h:i:s A';
@@ -12,9 +12,9 @@ $_['decimal_point']         = '.';
 $_['thousand_point']        = ',';
 
 // Text
-$_['text_home']             = '首页';
-$_['text_yes']              = '是';
-$_['text_no']               = '否';
+$_['text_home']             = 'Home';
+$_['text_yes']              = 'Yes';
+$_['text_no']               = 'No';
 $_['text_none']             = ' --- 无 --- ';
 $_['text_select']           = ' --- 请选择 --- ';
 $_['text_all_zones']        = '所有区域';
