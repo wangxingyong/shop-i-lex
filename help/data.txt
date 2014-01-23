@@ -1,0 +1,68 @@
+网店示例
+http://www.ynishop.com/index.php?route=common/home
+
+l /var/lib/openshift/52de47405973ca2a7f000009/php/configuration/etc/php.ini
+/var/lib/openshift/52de47405973ca2a7f000009/php/logs
+
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/index.php on line 15
+
+
+String APP_NAME = System.getenv("OPENSHIFT_APP_NAME");
+String DB_HOST = System.getenv("OPENSHIFT_DB_HOST");
+String DB_PORT = System.getenv("OPENSHIFT_DB_PORT");
+String DB_USER = System.getenv("OPENSHIFT_DB_USERNAME");
+String DB_PASSWD = System.getenv("OPENSHIFT_DB_PASSWORD");
+
+
+
+
+文件	状态
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/config.php	Writable
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/admin/config.php	Writable
+4. 请确保以下文件目录配置了合理的读写权限.
+
+目录	状态
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/system/cache/	Writable
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/system/logs/	Writable
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/image/	Writable
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/image/cache/	Writable
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/image/data/	Writable
+/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/download/
+
+
+
+
+
+
+<?php
+// HTTP
+define('HTTP_SERVER', 'http://www.ishoppingmall.net/admin/');
+define('HTTP_CATALOG', 'http://www.ishoppingmall.net/');
+define('HTTP_IMAGE', 'http://www.ishoppingmall.net/image/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://www.ishoppingmall.net/admin/');
+define('HTTPS_IMAGE', 'http://www.ishoppingmall.net/image/');
+
+// DIR
+define('DIR_APPLICATION', '/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/admin/');
+define('DIR_SYSTEM', '/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/system/');
+define('DIR_DATABASE', '/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/system/database/');
+define('DIR_LANGUAGE', '/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/admin/language/');
+define('DIR_TEMPLATE', '/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/admin/view/template/');
+define('DIR_CONFIG', '/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/system/config/');
+define('DIR_CATALOG', '/var/lib/openshift/52de47405973ca2a7f000009/app-root/runtime/repo/php/catalog/');
+
+define('DIR_IMAGE', '/var/lib/openshift/52de47405973ca2a7f000009/php/datas/image/');
+define('DIR_CACHE', '/var/lib/openshift/52de47405973ca2a7f000009/php/datas/cache/');
+define('DIR_DOWNLOAD', '/var/lib/openshift/52de47405973ca2a7f000009/php/datas/download/');
+define('DIR_LOGS', '/var/lib/openshift/52de47405973ca2a7f000009/php/datas/logs/');
+
+// DB
+define('DB_DRIVER', 'mysql');
+define('DB_HOSTNAME', '52de48cee0b8cd020f0000b7-ishoppingmall.rhcloud.com:41101');
+define('DB_USERNAME', 'adminyaWlhyd');
+define('DB_PASSWORD', 'hBp_sYBVNNJn');
+define('DB_DATABASE', 'shopilex');
+define('DB_PREFIX', '');
+?>
