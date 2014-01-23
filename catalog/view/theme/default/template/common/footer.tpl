@@ -44,7 +44,7 @@
 <script type="text/javascript">
 /* <![CDATA[ */
 (new GoTop()).init({
-	pageWidth		:960,
+	pageWidth		:1200,
 	nodeId			:'go-top',
 	nodeWidth		:50,
 	distanceToBottom	:125,
@@ -54,8 +54,8 @@
 /* ]]> */
 </script>
 <script type="text/javascript">
-$('.box-product .ym-g25:nth-child(4n)').after('<br class="clear" />');
-$('.product-grid .product:nth-child(4n)').after('<br class="clear" />');
+$('.box-product .ym-g25:nth-child(5n)').after('<br class="clear" />');
+$('.product-grid .product:nth-child(5n)').after('<br class="clear" />');
 </script>
 </html>
 

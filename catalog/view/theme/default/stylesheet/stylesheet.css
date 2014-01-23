@@ -7,7 +7,13 @@ html {
 	margin: 0;
 	padding: 0;
 }
-
+div.name{
+    height: 32px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
 body {
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +79,7 @@ img,.clear {
 
 /* layout */
 #container {
-	width: 960px;
+	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -82,7 +88,7 @@ img,.clear {
 
 #column-left {
 	float: left;
-	width: 180px; 
+	width: 200px;
 }
 
 #column-right {
@@ -96,7 +102,7 @@ img,.clear {
 }
 
 #column-left+#column-right+#content,#column-left+#content {
-	margin-left: 195px;
+	margin-left: 210px;
 	
 }
 
@@ -643,7 +649,7 @@ table.list .desc {
 }
 
 .htabs {
-	height: 30px;
+	height: 50px;
 	line-height: 16px;
 	border-bottom: 1px solid #DDDDDD;
 	border-right: 1px solid #DDDDDD;
@@ -685,12 +691,13 @@ table.list .desc {
 
 .box .box-heading {
 	padding: 8px 5px 7px 5px;
-	border-bottom: 1px solid #DDDDDD;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 14px;
+	/*font-weight: bold;*/
 	color: #E20C3A;
+    height: 37px;
+    /*margin-bottom: 2px;*/
+    border-bottom: 3px solid #333;
+    /*width: 210px;*/
+    font: 700 20px/37px 'PT Sans Narrow';
 }
 
 .box .box-content {
@@ -700,7 +707,7 @@ table.list .desc {
 	-khtml-border-radius: 0px 0px 7px 7px;
 	border-radius: 0px 0px 7px 7px;
 	padding: 10px 0;
-	margin-left:10px;
+	margin-left:3px;
 	line-height:20px;
 }
 
@@ -722,7 +729,17 @@ table.list .desc {
 .box-product .product:first-child{ margin-top:0; }
 .box-product .product:last-child{ border-bottom: none; }
 
-.box-product .ym-g25{  }
+.box-product .ym-g25{
+    position: relative;
+    margin: 10px 0;
+    width: 220px;
+    height: 340px;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-transition: box-shadow .25s linear;
+    transition: box-shadow .25s linear;
+}
 
 .box-product .image {
 	display: block;
@@ -846,7 +863,7 @@ table.list .desc {
 
 .category-list ul {
 	float: left;
-	width: 18%;
+	width: 30%;
 }
 
 .category-list ul li {
@@ -1125,16 +1142,20 @@ table.list .desc {
 }
 
 .product-info .description {
-	border-top: 1px solid #E7E7E7;
-	border-bottom: 1px solid #E7E7E7;
+	border: 1px solid #E7E7E7;
 	padding: 5px 5px 10px 5px;
-	margin-bottom: 10px;
+    margin: 10px;
 	line-height: 20px;
 	color: #4D4D4D;
 }
 
 .product-info .description span {
 	color: #DD4B39;
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 13px;
 }
 
 .product-info .description a {
@@ -2029,8 +2050,9 @@ h1 span.s1 {
 }
 
 .box-product .price {
-	color: #C00 !important ;
-	font: bold 12px "microsoft yahei" !important ;
+    font-size: 16px;
+    color: #F60;
+    font-weight: 700;
 }
 
 .nvhm {
@@ -2238,9 +2260,9 @@ a.favorite{ color: #dc0050;}
 
 .product-info{ border: 1px solid #E8E8E8; margin-bottom: 0px;}
 
-.product-info .left{ width:46%; float:left;  }
+.product-info .left{ width:352px; float:left;  }
 .product-info > .left + .right {
-	margin-left: 47%;
+	margin-left: 360px;
 }
 .product-info .left{ border-right:1px solid #E8E8E8; }
 .product-info .image{ border:none; padding:3px;}
@@ -2311,6 +2333,7 @@ a.favorite{ color: #dc0050;}
 	height: 37px;
 	margin-bottom: 15px;
 	z-index:1001;
+    background: #A4D7DA;
 }
 
 #menu ul {
@@ -2337,8 +2360,8 @@ a.favorite{ color: #dc0050;}
 #menu ul li:first-child{ border-left:none; }
 
 #menu a {
-	font-size: 13px;
-	color: #000; 
+	font-size: 14px;
+	color: #000;
 	line-height: 14px;
 	text-decoration: none;
 	display: block;

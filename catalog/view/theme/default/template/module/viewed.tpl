@@ -8,7 +8,7 @@
         <?php if ($product['thumb']) { ?>
         <div class="image"><a href="<?php echo $product['href']; ?>" title="<?php echo $product['name']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" height="<?php echo $config_image_cart_height; ?>" width="<?php echo $config_image_cart_width; ?>" /></a></div>
         <?php } ?>
-        <div class="name"><a href="<?php echo $product['href']; ?>" title="<?php echo $product['name']; ?>"><?php echo $product['name']; ?></a></div>
+        <div class="name"><a href="<?php echo $product['href']; ?>" title="<?php echo $product['name']; ?>">122222<?php echo $product['name']; ?></a></div>
         <?php if ($product['price']) { ?>
         <div class="price">
           <?php if (!$product['special']) { ?>

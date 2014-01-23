@@ -1,6 +1,6 @@
 <?php if (isset($_SERVER['HTTP_USER_AGENT']) && !strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 6')) echo '<?xml version="1.0" encoding="UTF-8"?>'. "\n"; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" xml:lang="<?php echo $lang; ?>">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="cn" xml:lang="cn">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php echo $title; ?></title>
@@ -18,6 +18,8 @@
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/ishoppingmall.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/temp.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/form.css" />
 
 <?php foreach ($styles as $style) { ?>
@@ -104,7 +106,7 @@ DD_belatedPNG.fix('#logo img');
 	 <div class="links">
 	  <a rel="nofollow" href="<?php echo $home; ?>"><?php echo $text_home; ?></a>
 	  <a rel="nofollow" href="<?php echo $wishlist; ?>" id="wishlist_total"><?php echo $text_wishlist; ?></a>
-	  <a rel="nofollow" href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
+	  <!--{*<a rel="nofollow" href="<?php echo $account; ?>"><?php echo $text_account; ?></a>*}-->
 	  <a rel="nofollow" href="<?php echo $cart; ?>"><?php echo $text_cart; ?></a>
 	  <a rel="nofollow" href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
 	 </div>

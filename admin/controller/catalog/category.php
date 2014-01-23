@@ -266,7 +266,7 @@ class ControllerCatalogCategory extends Controller {
 		
 		$this->load->model('tool/image');
 
-		if (isset($category_info) && $category_info['image'] && file_exists(DIR_IMAGE . $category_info['image'])) {
+		if (isset($category_info) && $category_info['image']) {
 			$this->data['preview'] = $this->model_tool_image->resize($category_info['image'], 100, 100);
 		} else {
 			$this->data['preview'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);

@@ -14,7 +14,7 @@ $_['text_account'] = 'Member';
 $_['text_order'] = 'Order History';
 $_['text_wishlist'] = 'Favorites List';
 $_['text_newsletter'] = 'Subscribe';
-$_['text_powered'] = '<br/> Copyright &copy; %s %s All Rights Reserved <br /> <a href="http://www.shopilex.com"> www.shopilex.com Technical Support </a> <br /> ';
+$_['text_powered'] = '<br/> Copyright &copy; %s %s All Rights Reserved <br /> <a href="http://www.ishoppingmall.net"> I Shopping Mall . Technical Support </a> <br /> ';
 
 
 // <?php

@@ -22,11 +22,11 @@
 			<li class="drop-down">
 				<div class="drop-down-box">
 					<a class="drop-down-head" rel="nofollow" href="<?php echo $account;?>"><?php echo $text_account;?></a>
-						<div class="drop-down-list" style="width: 89px; ">
+						<div class="drop-down-list" style="width: 110px; ">
 						 <a rel="nofollow" href="<?php echo $order;?>"><?php echo $text_my_orders;?></a>
 						 <a rel="nofollow" href="<?php echo $address;?>"><?php echo $text_address;?></a>
 						 <a rel="nofollow" href="<?php echo $wishlist;?>"><?php echo $text_wishlist;?></a>
-						 <a rel="nofollow" href="<?php echo $download;?>"><?php echo $text_download;?></a>
+						 <!--{*<a rel="nofollow" href="<?php echo $download;?>"><?php echo $text_download;?></a>*}-->
 						 <a rel="nofollow" href="<?php echo $transaction;?>"><?php echo $text_transaction;?></a>
 						 <a rel="nofollow" href="<?php echo $reward;?>"><?php echo $text_reward;?></a>
 						 <a rel="nofollow" href="<?php echo $invite;?>"><?php echo $text_invite;?></a>

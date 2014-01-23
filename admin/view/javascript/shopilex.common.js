@@ -16,8 +16,9 @@ function image_upload(field, preview) {
 					data: 'image=' + encodeURIComponent($('#' + field).val()),
 					dataType: 'text',
 					success: function(data) {
+                        if(data !=""){
 						$('#' + preview).replaceWith('<img src="' + data + '" alt="" id="' + preview + '" class="image" onclick="image_upload(\'' + field + '\', \'' + preview + '\');" />');
-					}
+					}}
 				});
 			}
 		},	

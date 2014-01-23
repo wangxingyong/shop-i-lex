@@ -20,7 +20,7 @@
             <table class="form">
               <tr>
                 <td><span class="required">*</span> <?php echo $entry_name; ?></td>
-                <td><input type="text" name="product_description[<?php echo $language['language_id']; ?>][name]" size="100" value="<?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['name'] : ''; ?>" />
+                <td><input class="input-xxlarge" type="text" name="product_description[<?php echo $language['language_id']; ?>][name]" size="100" value="<?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['name'] : ''; ?>" />
                   <?php if (isset($error_name[$language['language_id']])) { ?>
                   <span class="error"><?php echo $error_name[$language['language_id']]; ?></span>
                   <?php } ?></td>
@@ -54,8 +54,10 @@
 	            </tr>
 	            <tr>
 	              <td><?php echo $entry_image; ?></td>
-	              <td><input type="hidden" name="image" value="<?php echo $image; ?>" id="image" />
-	                <img src="<?php echo $preview; ?>" alt="" id="preview" class="image" onclick="image_upload('image', 'preview');" /></td>
+	              <td>
+	                <img src="<?php echo $preview; ?>" alt="1" id="preview" class="image" onclick="image_upload('image', 'preview');" style1="width: 300px;height: 300px"/><br>
+                    <input type="input" name="image" value="<?php echo $image; ?>" id="image" class="input-xxlarge"/>
+                  </td>
 	            </tr>
 	            <tr>
 	              <td><?php echo $entry_date_available; ?></td>
@@ -745,8 +747,10 @@
             <?php foreach ($product_images as $product_image) { ?>
             <tbody id="image-row<?php echo $image_row; ?>">
               <tr>
-                <td class="left"><img src="<?php echo $product_image['preview']; ?>" alt="" id="preview<?php echo $image_row; ?>" class="image" onclick="image_upload('image<?php echo $image_row; ?>', 'preview<?php echo $image_row; ?>');" />
-                  <input type="hidden" name="product_image[<?php echo $image_row; ?>]" value="<?php echo $product_image['image']; ?>" id="image<?php echo $image_row; ?>"  /></td>
+                <td class="left">
+                    <img src="<?php echo $product_image['preview']; ?>" alt="" id="preview<?php echo $image_row; ?>" class="image" onclick="image_upload('image<?php echo $image_row; ?>', 'preview<?php echo $image_row; ?>');" />
+                    <br/><input style="width: 600px" type="text" name="product_image[<?php echo $image_row; ?>]" value="<?php echo $product_image['image']; ?>" id="image<?php echo $image_row; ?>"  />
+                </td>
                 <td class="left"><a onclick="$('#image-row<?php echo $image_row; ?>').remove();" class="button"><span><?php echo $button_remove; ?></span></a></td>
               </tr>
             </tbody>
