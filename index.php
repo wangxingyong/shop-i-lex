@@ -165,6 +165,8 @@ if (isset($request->get['language']) && array_key_exists($request->get['language
 } else {
 	$code = $config->get('config_language');
 }
+// TODO
+$code = "en";
 
 if (!isset($session->data['language']) || $session->data['language'] != $code) {
 	$session->data['language'] = $code;
