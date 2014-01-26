@@ -15,11 +15,11 @@ define('DIR_DATABASE', '/xingyong/workHome/wxy/shopilex/system/database/');
 define('DIR_LANGUAGE', '/xingyong/workHome/wxy/shopilex/admin/language/');
 define('DIR_TEMPLATE', '/xingyong/workHome/wxy/shopilex/admin/view/template/');
 define('DIR_CONFIG', '/xingyong/workHome/wxy/shopilex/system/config/');
-define('DIR_IMAGE', '/xingyong/workHome/wxy/shopilex/image/');
-define('DIR_CACHE', '/xingyong/workHome/wxy/shopilex/system/cache/');
-define('DIR_DOWNLOAD', '/xingyong/workHome/wxy/shopilex/download/');
-define('DIR_LOGS', '/xingyong/workHome/wxy/shopilex/system/logs/');
-define('DIR_CATALOG', '/xingyong/workHome/wxy/shopilex/catalog/');
+define('DIR_IMAGE', '/xingyong/workHome/wxy/temp/shopilex/image/');
+define('DIR_CACHE', '/xingyong/workHome/wxy/temp/shopilex/system/cache/');
+define('DIR_DOWNLOAD', '/xingyong/workHome/wxy/temp/shopilex/download/');
+define('DIR_LOGS', '/xingyong/workHome/wxy/temp/shopilex/system/logs/');
+define('DIR_CATALOG', '/xingyong/workHome/wxy/temp/shopilex/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysql');
