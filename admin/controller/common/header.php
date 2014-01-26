@@ -13,6 +13,7 @@ class ControllerCommonHeader extends Controller {
 			$this->data['logged'] = sprintf($this->language->get('text_logged'), $this->user->getUserName());
 			$this->data['sitemap'] =$this->url->link('catalog/sitemap', 'token=' . $this->session->data['token'], 'SSL');
 			$this->data['home'] = $this->url->link('common/home', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['dx'] = $this->url->link('tool/dx', 'token=' . $this->session->data['token'], 'SSL');
 			$this->data['seo'] =$this->url->link('seo/url_alias', 'token=' . $this->session->data['token'], 'SSL');
 			$this->data['affiliate'] = $this->url->link('sale/affiliate', 'token=' . $this->session->data['token'], 'SSL');
 			$this->data['attribute'] = $this->url->link('catalog/attribute', 'token=' . $this->session->data['token'], 'SSL');

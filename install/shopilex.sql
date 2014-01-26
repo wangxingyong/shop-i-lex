@@ -1173,6 +1173,7 @@ CREATE TABLE `product` (
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `viewed` int(5) NOT NULL DEFAULT '0',
+  `dx_url` varchar(255) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`product_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=55177 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 

@@ -397,6 +397,7 @@ class ControllerCatalogProduct extends Controller {
 			$this->data['product_description'] = array();
 		}
 
+        $this->product_setter(isset($product_info)?$product_info : NULL, 'dx_url');
 		$this->product_setter(isset($product_info)?$product_info : NULL, 'model');
 		$this->product_setter(isset($product_info)?$product_info : NULL, 'sku');
 		$this->product_setter(isset($product_info)?$product_info : NULL, 'upc');

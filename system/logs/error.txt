@@ -1,93 +1,270 @@
-2014-01-17 15:47:22 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/common/header.tpl on line 106
-2014-01-17 15:47:24 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/common/header.tpl on line 106
-2014-01-17 15:50:10 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 119
-2014-01-17 15:50:10 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 122
-2014-01-17 15:50:10 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 123
-2014-01-17 15:50:16 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 119
-2014-01-17 15:50:16 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 122
-2014-01-17 15:50:16 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 123
-2014-01-17 15:50:18 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 119
-2014-01-17 15:50:18 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 122
-2014-01-17 15:50:18 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 123
-2014-01-17 15:50:20 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 119
-2014-01-17 15:50:20 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 122
-2014-01-17 15:50:20 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 123
-2014-01-17 15:50:25 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 119
-2014-01-17 15:50:25 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 122
-2014-01-17 15:50:25 - PHP Notice:  Undefined index: cn in /xingyong/workHome/wxy/shopilex/admin/index.php on line 123
-2014-01-17 16:12:14 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:12:16 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:12:16 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:13:46 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:14:25 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:15:57 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:17:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/index.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:18:50 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:20 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-17 16:19:43 - PHP Unknown:  Object of class Language could not be converted to string in /xingyong/workHome/wxy/shopilex/system/engine/controller.php on line 186
-2014-01-18 13:37:09 - PHP Notice:  Undefined index: zh in /xingyong/workHome/wxy/shopilex/index.php on line 179
-2014-01-18 13:37:09 - PHP Notice:  Undefined index: zh in /xingyong/workHome/wxy/shopilex/index.php on line 180
-2014-01-18 13:37:09 - PHP Notice:  Undefined index: zh in /xingyong/workHome/wxy/shopilex/index.php on line 183
-2014-01-18 13:37:09 - PHP Notice:  Undefined index: zh in /xingyong/workHome/wxy/shopilex/index.php on line 184
+2014-01-26 14:02:22 - PHP Warning:  file_get_contents(sadasd): failed to open stream: No such file or directory in /xingyong/workHome/wxy/shopilex/system/html/simple_html_dom.php on line 76
+2014-01-26 14:03:10 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 2
+2014-01-26 14:03:10 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:03:10 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:03:10 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:03:11 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 2
+2014-01-26 14:03:11 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:03:11 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:03:11 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:04:08 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 113
+2014-01-26 14:04:08 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 113
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: sku in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: upc in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: location in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: quantity in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: minimum in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: subtract in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: stock_status_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: date_available in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: manufacturer_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: shipping in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: points in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: weight in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: weight_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: length in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: width in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: height in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: length_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: status in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: tax_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: sort_order in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: meta_description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: product_tag in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:04:08 - PHP Warning:  Invalid argument supplied for foreach() in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:04:08 - PHP Notice:  Undefined index: keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 141
+2014-01-26 14:07:24 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 2
+2014-01-26 14:07:24 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:07:24 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:07:24 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 119
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 119
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 119
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 119
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 119
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 119
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 113
+2014-01-26 14:08:35 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/controller/tool/dx.php on line 113
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: sku in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: upc in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: location in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: quantity in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: minimum in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: subtract in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: stock_status_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: date_available in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: manufacturer_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: shipping in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: points in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: weight in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: weight_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: length in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: width in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: height in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: length_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: status in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: tax_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: sort_order in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: meta_description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: product_tag in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:08:35 - PHP Warning:  Invalid argument supplied for foreach() in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:08:35 - PHP Notice:  Undefined index: keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 141
+2014-01-26 14:13:09 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:13:09 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:13:09 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:13:09 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:13:21 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:13:21 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:13:21 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:13:21 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:13:27 - PHP Warning:  strpos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 2
+2014-01-26 14:13:27 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:13:27 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:13:27 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:13:27 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:16:00 - PHP Warning:  stripos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 2
+2014-01-26 14:16:00 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:16:00 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:16:00 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:16:00 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:16:07 - PHP Warning:  stripos(): Offset not contained in string in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 2
+2014-01-26 14:16:07 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:16:07 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:16:07 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:16:07 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:16:13 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:16:13 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:16:13 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:16:13 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:18:51 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:18:51 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:18:51 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:18:51 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:19:19 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:19:19 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:19:19 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:19:19 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: sku in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: upc in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: location in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: quantity in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: minimum in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: subtract in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: stock_status_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: date_available in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: manufacturer_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: shipping in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: points in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: weight in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: weight_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: length in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: width in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: height in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: length_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: status in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: tax_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: sort_order in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: meta_description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: product_tag in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:19:43 - PHP Warning:  Invalid argument supplied for foreach() in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:19:43 - PHP Notice:  Undefined index: keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 141
+2014-01-26 14:28:19 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:28:19 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:28:19 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:28:19 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: sku in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: upc in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: location in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: quantity in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: minimum in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: subtract in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: stock_status_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: date_available in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: manufacturer_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: shipping in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: points in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: weight in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: weight_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: length in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: width in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: height in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: length_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: status in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: tax_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: sort_order in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: meta_description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: product_tag in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:29:11 - PHP Warning:  Invalid argument supplied for foreach() in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:29:11 - PHP Notice:  Undefined index: keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 141
+2014-01-26 14:31:04 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:31:04 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:31:04 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:31:04 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: sku in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: upc in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: location in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: quantity in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: minimum in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: subtract in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: stock_status_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: date_available in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: manufacturer_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: shipping in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:13 - PHP Notice:  Undefined index: points in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: weight in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: weight_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: length in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: width in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: height in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: length_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: status in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: tax_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: sort_order in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: meta_description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: product_tag in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:31:14 - PHP Warning:  Invalid argument supplied for foreach() in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:31:14 - PHP Notice:  Undefined index: keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 141
+2014-01-26 14:32:17 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:32:17 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:32:17 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:32:17 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:32:19 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:32:19 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:32:19 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:32:19 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:32:36 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:32:36 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:32:36 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:32:36 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:32:43 - PHP Notice:  Undefined variable: action in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 3
+2014-01-26 14:32:43 - PHP Notice:  Undefined variable: url in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 4
+2014-01-26 14:32:43 - PHP Notice:  Undefined variable: template_product_id in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 5
+2014-01-26 14:32:43 - PHP Notice:  Undefined variable: error in /xingyong/workHome/wxy/shopilex/admin/view/template/tool/dx.tpl on line 6
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: sku in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: upc in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: location in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: quantity in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: minimum in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: subtract in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: stock_status_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: date_available in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: manufacturer_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: shipping in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: points in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: weight in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: weight_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: length in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: width in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: height in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: length_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: status in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: tax_class_id in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: sort_order in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 5
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: meta_title in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: meta_keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: meta_description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: description in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 16
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: product_tag in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:34:04 - PHP Warning:  Invalid argument supplied for foreach() in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 131
+2014-01-26 14:34:04 - PHP Notice:  Undefined index: keyword in /xingyong/workHome/wxy/shopilex/admin/model/catalog/product.php on line 141
+2014-01-26 14:37:38 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 41
+2014-01-26 14:37:43 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 41
+2014-01-26 14:39:01 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 41
+2014-01-26 14:39:15 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 41
+2014-01-26 14:39:15 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 42
+2014-01-26 14:41:12 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 41
+2014-01-26 14:41:12 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 42
+2014-01-26 14:41:14 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 41
+2014-01-26 14:41:14 - PHP Notice:  Undefined variable: dx_url in /xingyong/workHome/wxy/shopilex/catalog/view/theme/default/template/product/product.tpl on line 42
+2014-01-26 14:42:57 - PHP Notice:  Undefined index: dx_url in /xingyong/workHome/wxy/shopilex/catalog/controller/product/product.php on line 153
+2014-01-26 14:43:00 - PHP Notice:  Undefined index: dx_url in /xingyong/workHome/wxy/shopilex/catalog/controller/product/product.php on line 153
+2014-01-26 14:46:48 - PHP Notice:  Undefined index: dx_url in /xingyong/workHome/wxy/shopilex/catalog/controller/product/product.php on line 153
+2014-01-26 14:46:57 - PHP Notice:  Undefined index: dx_url in /xingyong/workHome/wxy/shopilex/catalog/controller/product/product.php on line 153
+2014-01-26 14:48:49 - PHP Notice:  Undefined index: dx_url in /xingyong/workHome/wxy/shopilex/catalog/controller/product/product.php on line 153

@@ -73,6 +73,7 @@
 	    <li><a href="<?php echo $backup; ?>"><?php echo $text_backup; ?></a></li>
 	  </ul>
   </li>
+  <li id="h_dashboard" ><a href="<?php echo $dx; ?>" >代销产品</a></li>
  </ul>
  <ul class="nav pull-right">
  		<li class="dropdown">
@@ -157,4 +158,4 @@ $(document).ready(function() {
 		$('a[href*=\'' + url + '\']').parents('li[id]').addClass('active');
 	}
 });
-//--></script> 
+//--></script>

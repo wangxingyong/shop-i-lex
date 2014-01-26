@@ -25,6 +25,10 @@
                   <span class="error"><?php echo $error_name[$language['language_id']]; ?></span>
                   <?php } ?></td>
               </tr>
+                <tr>
+                    <td>待销的链接URL</td>
+                    <td><input type="text" name="dxUrl" value="<?php echo $dx_url; ?>" /></td>
+                </tr>
               <tr>
                 <td><?php echo $entry_description; ?></td>
                 <td><textarea name="product_description[<?php echo $language['language_id']; ?>][description]" id="description<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['description'] : ''; ?></textarea></td>
@@ -1339,7 +1343,7 @@ var image_row = <?php echo $image_row; ?>;
 function addImage() {
     html  = '<tbody id="image-row' + image_row + '">';
 	html += '  <tr>';
-	html += '    <td class="left"><input type="hidden" name="product_image[' + image_row + ']" value="" id="image' + image_row + '" /><img src="<?php echo $no_image; ?>" alt="" id="preview' + image_row + '" class="image" onclick="image_upload(\'image' + image_row + '\', \'preview' + image_row + '\');" /></td>';
+	html += '    <td class="left"><img src="<?php echo $no_image; ?>" alt="" id="preview' + image_row + '" class="image" onclick="image_upload(\'image' + image_row + '\', \'preview' + image_row + '\');" /><br/><input type="text" style="width: 600px" name="product_image[' + image_row + ']" value="" id="image' + image_row + '" /></td>';
 	html += '    <td class="left"><a onclick="$(\'#image-row' + image_row  + '\').remove();" class="button"><span><?php echo $button_remove; ?></span></a></td>';
 	html += '  </tr>';
 	html += '</tbody>';

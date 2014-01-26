@@ -38,13 +38,17 @@
     <?php } ?>
     <div class="right">
       <h1><?php echo $heading_title; ?></h1>
+      <?php if (is_null($dx_url)) { ?>
+
       <div class="description">
         <?php if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
         <?php } ?>
         <span><?php echo $text_model; ?></span> <?php echo $model; ?><br />
         <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
-        <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
+        <span><?php echo $text_stock; ?></span> <?php echo $stock; ?>
+      </div>
+      <?php } ?>
      <div class="product-buy">
       <?php if ($price) { ?>
       <div class="price"><?php echo $text_price; ?>

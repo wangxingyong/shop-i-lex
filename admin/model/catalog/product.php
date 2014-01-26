@@ -1,8 +1,8 @@
-<?php
+‰<?php
 class ModelCatalogProduct extends Model {
 	public function addProduct($data) {
 		$name='';
-		$this->db->query("INSERT INTO " . DB_PREFIX . "product SET model = '" . $this->db->escape($data['model']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', location = '" . $this->db->escape($data['location']) . "', quantity = '" . (int)$data['quantity'] . "', minimum = '" . (int)$data['minimum'] . "', subtract = '" . (int)$data['subtract'] . "', stock_status_id = '" . (int)$data['stock_status_id'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', shipping = '" . (int)$data['shipping'] . "', price = '" . (float)$data['price'] . "', points = '" . (int)$data['points'] . "', weight = '" . (float)$data['weight'] . "', weight_class_id = '" . (int)$data['weight_class_id'] . "', length = '" . (float)$data['length'] . "', width = '" . (float)$data['width'] . "', height = '" . (float)$data['height'] . "', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', tax_class_id = '" . (int)$data['tax_class_id'] . "', sort_order = '" . (int)$data['sort_order'] . "', date_added = NOW()");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "product SET dx_url = '" . $this->db->escape($data['dxUrl']) . "', model = '" . $this->db->escape($data['model']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', location = '" . $this->db->escape($data['location']) . "', quantity = '" . (int)$data['quantity'] . "', minimum = '" . (int)$data['minimum'] . "', subtract = '" . (int)$data['subtract'] . "', stock_status_id = '" . (int)$data['stock_status_id'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', shipping = '" . (int)$data['shipping'] . "', price = '" . (float)$data['price'] . "', points = '" . (int)$data['points'] . "', weight = '" . (float)$data['weight'] . "', weight_class_id = '" . (int)$data['weight_class_id'] . "', length = '" . (float)$data['length'] . "', width = '" . (float)$data['width'] . "', height = '" . (float)$data['height'] . "', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', tax_class_id = '" . (int)$data['tax_class_id'] . "', sort_order = '" . (int)$data['sort_order'] . "', date_added = NOW()");
 
 		$product_id = $this->db->getLastId();
 
@@ -149,7 +149,7 @@ class ModelCatalogProduct extends Model {
 
 	public function editProduct($product_id, $data) {
 		$name='';
-		$this->db->query("UPDATE " . DB_PREFIX . "product SET model = '" . $this->db->escape($data['model']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', location = '" . $this->db->escape($data['location']) . "', quantity = '" . (int)$data['quantity'] . "', minimum = '" . (int)$data['minimum'] . "', subtract = '" . (int)$data['subtract'] . "', stock_status_id = '" . (int)$data['stock_status_id'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', shipping = '" . (int)$data['shipping'] . "', price = '" . (float)$data['price'] . "', points = '" . (int)$data['points'] . "', weight = '" . (float)$data['weight'] . "', weight_class_id = '" . (int)$data['weight_class_id'] . "', length = '" . (float)$data['length'] . "', width = '" . (float)$data['width'] . "', height = '" . (float)$data['height'] . "', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', tax_class_id = '" . (int)$data['tax_class_id'] . "', sort_order = '" . (int)$data['sort_order'] . "', date_modified = NOW() WHERE product_id = '" . (int)$product_id . "'");
+		$this->db->query("UPDATE " . DB_PREFIX . "product SET dx_url = '" . $this->db->escape($data['dxUrl']) . "',model = '" . $this->db->escape($data['model']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', location = '" . $this->db->escape($data['location']) . "', quantity = '" . (int)$data['quantity'] . "', minimum = '" . (int)$data['minimum'] . "', subtract = '" . (int)$data['subtract'] . "', stock_status_id = '" . (int)$data['stock_status_id'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', shipping = '" . (int)$data['shipping'] . "', price = '" . (float)$data['price'] . "', points = '" . (int)$data['points'] . "', weight = '" . (float)$data['weight'] . "', weight_class_id = '" . (int)$data['weight_class_id'] . "', length = '" . (float)$data['length'] . "', width = '" . (float)$data['width'] . "', height = '" . (float)$data['height'] . "', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', tax_class_id = '" . (int)$data['tax_class_id'] . "', sort_order = '" . (int)$data['sort_order'] . "', date_modified = NOW() WHERE product_id = '" . (int)$product_id . "'");
 
 		if (isset($data['image'])) {
 			$this->db->query("UPDATE " . DB_PREFIX . "product SET image = '" . $this->db->escape($data['image']) . "' WHERE product_id = '" . (int)$product_id . "'");
@@ -322,50 +322,96 @@ class ModelCatalogProduct extends Model {
 		$this->cache->delete('product');
 	}
 
-	public function copyProduct($product_id) {
-		$query = $this->db->query("SELECT DISTINCT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE p.product_id = '" . (int)$product_id . "' AND pd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
+    public function copyProduct($product_id) {
+        $data = $this->cloneProduct($product_id);
+        //$index=20000;
+        //for ($i = 0; $i < $index; $i++) {
+        $this->addProduct($data);
+        //}
+    }
+    public function cloneProduct($product_id) {
+        $query = $this->db->query("SELECT DISTINCT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE p.product_id = '" . (int)$product_id . "' AND pd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
 
-		if ($query->num_rows) {
-			$data = array();
+        if ($query->num_rows) {
+            $data = array();
 
-			$data = $query->row;
+            $data = $query->row;
 
-			$data['keyword'] = '';
+            $data['keyword'] = '';
 
-			//$data['status'] = '0';
-			
-			// FIXME just for test
-			$data['status'] = '1';
+            //$data['status'] = '0';
 
-			$data = array_merge($data, array('product_attribute' => $this->getProductAttributes($product_id)));
-			$data = array_merge($data, array('product_description' => $this->getProductDescriptions($product_id)));
-			$data = array_merge($data, array('product_discount' => $this->getProductDiscounts($product_id)));
-			$data = array_merge($data, array('product_image' => $this->getProductImages($product_id)));
+            // FIXME just for test
+            $data['status'] = '1';
 
-			$data['product_image'] = array();
+            $data = array_merge($data, array('product_attribute' => $this->getProductAttributes($product_id)));
+            $data = array_merge($data, array('product_description' => $this->getProductDescriptions($product_id)));
+            $data = array_merge($data, array('product_discount' => $this->getProductDiscounts($product_id)));
+            $data = array_merge($data, array('product_image' => $this->getProductImages($product_id)));
 
-			$results = $this->getProductImages($product_id);
+            $data['product_image'] = array();
 
-			foreach ($results as $result) {
-				$data['product_image'][] = $result['image'];
-			}
+            $results = $this->getProductImages($product_id);
 
-			$data = array_merge($data, array('product_option' => $this->getProductOptions($product_id)));
-			$data = array_merge($data, array('product_related' => $this->getProductRelated($product_id)));
-			$data = array_merge($data, array('product_reward' => $this->getProductRewards($product_id)));
-			$data = array_merge($data, array('product_special' => $this->getProductSpecials($product_id)));
-			$data = array_merge($data, array('product_tag' => $this->getProductTags($product_id)));
-			$data = array_merge($data, array('product_category' => $this->getProductCategories($product_id)));
-			$data = array_merge($data, array('product_download' => $this->getProductDownloads($product_id)));
-			$data = array_merge($data, array('product_layout' => $this->getProductLayouts($product_id)));
-			$data = array_merge($data, array('product_store' => $this->getProductStores($product_id)));
-			
-			//$index=20000;
-			//for ($i = 0; $i < $index; $i++) {
-			$this->addProduct($data);
-			//}
-			
-		}
+            foreach ($results as $result) {
+                $data['product_image'][] = $result['image'];
+            }
+
+            $data = array_merge($data, array('product_option' => $this->getProductOptions($product_id)));
+            $data = array_merge($data, array('product_related' => $this->getProductRelated($product_id)));
+            $data = array_merge($data, array('product_reward' => $this->getProductRewards($product_id)));
+            $data = array_merge($data, array('product_special' => $this->getProductSpecials($product_id)));
+            $data = array_merge($data, array('product_tag' => $this->getProductTags($product_id)));
+            $data = array_merge($data, array('product_category' => $this->getProductCategories($product_id)));
+            $data = array_merge($data, array('product_download' => $this->getProductDownloads($product_id)));
+            $data = array_merge($data, array('product_layout' => $this->getProductLayouts($product_id)));
+            $data = array_merge($data, array('product_store' => $this->getProductStores($product_id)));
+            return $data;
+        }
+//	public function copyProduct($product_id) {
+//		$query = $this->db->query("SELECT DISTINCT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE p.product_id = '" . (int)$product_id . "' AND pd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
+//
+//		if ($query->num_rows) {
+//			$data = array();
+//
+//			$data = $query->row;
+//
+//			$data['keyword'] = '';
+//
+//			//$data['status'] = '0';
+//
+//			// FIXME just for test
+//			$data['status'] = '1';
+//
+//			$data = array_merge($data, array('product_attribute' => $this->getProductAttributes($product_id)));
+//			$data = array_merge($data, array('product_description' => $this->getProductDescriptions($product_id)));
+//			$data = array_merge($data, array('product_discount' => $this->getProductDiscounts($product_id)));
+//			$data = array_merge($data, array('product_image' => $this->getProductImages($product_id)));
+//
+//			$data['product_image'] = array();
+//
+//			$results = $this->getProductImages($product_id);
+//
+//			foreach ($results as $result) {
+//				$data['product_image'][] = $result['image'];
+//			}
+//
+//			$data = array_merge($data, array('product_option' => $this->getProductOptions($product_id)));
+//			$data = array_merge($data, array('product_related' => $this->getProductRelated($product_id)));
+//			$data = array_merge($data, array('product_reward' => $this->getProductRewards($product_id)));
+//			$data = array_merge($data, array('product_special' => $this->getProductSpecials($product_id)));
+//			$data = array_merge($data, array('product_tag' => $this->getProductTags($product_id)));
+//			$data = array_merge($data, array('product_category' => $this->getProductCategories($product_id)));
+//			$data = array_merge($data, array('product_download' => $this->getProductDownloads($product_id)));
+//			$data = array_merge($data, array('product_layout' => $this->getProductLayouts($product_id)));
+//			$data = array_merge($data, array('product_store' => $this->getProductStores($product_id)));
+//
+//			//$index=20000;
+//			//for ($i = 0; $i < $index; $i++) {
+//			$this->addProduct($data);
+//			//}
+//
+//		}
 	}
 
 	public function deleteProduct($product_id) {
