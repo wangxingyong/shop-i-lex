@@ -1168,6 +1168,7 @@ table.list .desc {
 	margin-bottom: 10px;
 	font-size: 15px;
 	font-weight: bold;
+    color: #F60;
 }
 
 .product-info .price-old {
@@ -2246,11 +2247,11 @@ a.favorite{ color: #dc0050;}
 /* Basemod */
 
 @CHARSET "UTF-8";
-.product-grid .name{ border-bottom:1px solid #E8E8E8; margin-top:5px; min-height:35px; }
-.product-grid .price{ width:70px; float: right; margin-top:5px; }
+.product-grid .name{ border-bottom:1px solid #E8E8E8; margin-top:5px; min-height:35px; height: 32px;overflow: hidden;}
+.product-grid .price{ width:70px; float: right; margin-top:5px; color: #F60;}
 .product-grid .wishlist,
 .product-grid .compare {
-	width:50px; float:left; margin-botton:5px; margin-top:5px;
+	width:100px; float:left; margin-botton:5px; margin-top:5px;
 }
 
 .feature_brand{ border:1px dashed #f00; height:70px; padding:5px; }

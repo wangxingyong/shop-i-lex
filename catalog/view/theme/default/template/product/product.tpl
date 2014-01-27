@@ -51,7 +51,8 @@
       <?php } ?>
      <div class="product-buy">
       <?php if ($price) { ?>
-      <div class="price"><?php echo $text_price; ?>
+         <span style="float: left;width:60px"><?php echo $text_price; ?></span>
+      <div class="price">
         <?php if (!$special) { ?>
         <?php echo $price; ?>
         <?php } else { ?>

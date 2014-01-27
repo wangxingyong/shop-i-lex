@@ -5,7 +5,7 @@ $_['text_wishlist'] = 'Favorites (%s)';
 $_['text_cart'] = 'Cart';
 $_['text_items'] = '%s item(s) - %s';
 $_['text_search'] = 'Search';
-$_['text_welcome'] = 'Welcome <strong>%s</strong>! [<a Rel="nofollow" href="%s">Sign In</a> | <a rel="nofollow" href="%s">Register</a>]';
+$_['text_welcome'] = 'Welcome&nbsp;&nbsp;[<a href="/"><strong>%s</strong></a>]&nbsp;&nbsp; [<a Rel="nofollow" href="%s">Sign In</a> | <a rel="nofollow" href="%s">Register</a>]';
 $_['text_logged'] = 'Welcome <a href="%s">%s</a> <b> (</b> <a rel="nofollow" href="%s">Sign Out</a> <b>) </b>';
 $_['text_checkout'] = 'Pay Now';
 $_['text_my_account'] = '<a rel="nofollow" href="%s">My Account </a> |';
