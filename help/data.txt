@@ -1,3 +1,6 @@
+php字符串操作
+http://jingyan.baidu.com/article/95c9d20d9a5276ec4e75613c.html
+
 网店示例
 http://www.ynishop.com/index.php?route=common/home
 

@@ -220,9 +220,14 @@
       <?php } ?>
       <div class="cart">
         <div><?php echo $text_qty; ?>
-          <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
+          <input type="text" name="quantity" size="2" style="vertical-align:middle" value="<?php echo $minimum; ?>" />
           <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
-          &nbsp;<a rel="nofollow" id="button-cart" class="button highlight"><span><?php echo $button_cart; ?></span></a>
+          &nbsp;
+            <?php if ($dx_url) { ?>
+            <a rel="nofollow" href="<?php echo $dx_url; ?>" target="_blank" class="buy-now-btn highlight"><span>Buy Now</span></a>
+            <?php } else { ?>
+            <a rel="nofollow" id="button-cart" class="add-to-cart-btn highlight"><span><?php echo $button_cart; ?></span></a>
+            <?php } ?>
        	  &nbsp;&nbsp;&nbsp;<?php echo $text_or; ?>&nbsp;&nbsp;&nbsp;
        	  <a rel="nofollow" onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a> |
 		  <a rel="nofollow" onclick="addToCompare('<?php echo $product_id; ?>');"><?php echo $button_compare; ?></a>

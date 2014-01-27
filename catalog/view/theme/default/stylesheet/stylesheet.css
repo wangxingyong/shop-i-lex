@@ -695,7 +695,7 @@ table.list .desc {
 	color: #E20C3A;
     height: 37px;
     /*margin-bottom: 2px;*/
-    border-bottom: 3px solid #333;
+    border-bottom: 1px solid #333;
     /*width: 210px;*/
     font: 700 20px/37px 'PT Sans Narrow';
 }
@@ -2333,7 +2333,7 @@ a.favorite{ color: #dc0050;}
 	height: 37px;
 	margin-bottom: 15px;
 	z-index:1001;
-    background: #A4D7DA;
+    background: #E3DDE7;
 }
 
 #menu ul {
