@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title'] = 'Quit account';
+$_['heading_title'] = 'Logout';
 
 // Text
 $_['text_message'] = '<p> you have to exit your account is safe to leave computer a </p> <p> shopping cart has been saved, which will resume whenever you log in to your account project </p>';
-$_['text_account'] = 'account';
-$_['text_logout'] = 'exit';
+$_['text_account'] = 'Account';
+$_['text_logout'] = 'Logout';
 
 
 // <?php

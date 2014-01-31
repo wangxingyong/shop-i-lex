@@ -3,9 +3,9 @@
 $_['heading_title'] = 'Affiliate Tracking';
 
 // Text
-$_['text_account'] = 'account';
+$_['text_account'] = 'Account';
 $_['text_description'] = 'order Make sure that you can get payment from us, we need to track the tracking code placed in the URL link to us, you can use the following tools to generate%s linked sites.';
-$_['text_code'] = '<b> your tracking number: </b>';
+$_['text_code'] = '<b>your tracking number: </b>';
 $_['text_generator'] = '<b> tracking link generated </b> <br /> Please enter the link you want to generate a trade name:';
 $_['text_link'] = '<b> follow links: </b>';
 

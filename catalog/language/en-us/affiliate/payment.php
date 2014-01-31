@@ -1,27 +1,27 @@
 <?php
 // Heading
-$_['heading_title'] = 'payment';
+$_['heading_title'] = 'Payment';
 
 // Text
 $_['text_account'] = 'Account';
-$_['text_payment'] = 'payment way';
-$_['text_your_payment'] = 'payment information';
-$_['text_your_password'] = 'my password';
-$_['text_cheque'] = 'check';
+$_['text_payment'] = 'Payment Way';
+$_['text_your_payment'] = 'Payment Information';
+$_['text_your_password'] = 'Password';
+$_['text_cheque'] = 'Check';
 $_['text_paypal'] = 'Paypal';
-$_['text_bank'] = 'bank transfer';
+$_['text_bank'] = 'Bank Transfer';
 $_['text_success'] = 'success: your account has been successfully updated';
 
 // Entry
-$_ ['entry_tax'] = 'heading:';
-$_['entry_payment'] = 'payment:';
-$_['entry_cheque'] = 'Cheque in favor of:';
-$_['entry_paypal'] = 'Paypal account:';
-$_['entry_bank_name'] = 'Bank name:';
+$_ ['entry_tax'] = 'Tariff Number:';
+$_['entry_payment'] = 'Payment:';
+$_['entry_cheque'] = 'Cheque In Favor Of:';
+$_['entry_paypal'] = 'Paypal Account:';
+$_['entry_bank_name'] = 'Bank Name:';
 $_['entry_bank_branch_number'] = 'ABA / BSB Number (Branch Road):';
 $_['entry_bank_swift_code'] = 'SWIFT number:';
-$_['entry_bank_account_name'] = 'account Name:';
-$_['entry_bank_account_number'] = 'Username:';
+$_['entry_bank_account_name'] = 'Bank Account:';
+$_['entry_bank_account_number'] = 'Bank Account NO:';
 
 
 // <?php

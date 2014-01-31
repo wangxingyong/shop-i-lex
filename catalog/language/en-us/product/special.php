@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title'] = 'Special Offers';
+$_['heading_title'] = 'Sale Items';
 
 // Text
-$_['text_empty'] = 'Sorry , there is no promotions !';
+$_['text_empty'] = 'Sorry, we currently do not have any Discount products !';
 $_['text_quantity'] = 'Quantity :';
 $_['text_manufacturer'] = 'Brand :';
 $_['text_model'] = 'Product Model :';
@@ -11,7 +11,7 @@ $_['text_points'] = 'Points :';
 $_['text_price'] = 'Price :';
 $_['text_tax'] = 'BEFORE :';
 $_['text_reviews'] = '%s comment on';
-$_['text_compare'] = 'Contrast (%s)';
+$_['text_compare'] = 'Contrast Product [%s]';
 $_['text_display'] = 'Display :';
 $_['text_list'] = 'List';
 $_['text_grid'] = 'Grid';

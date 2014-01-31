@@ -4,30 +4,30 @@ $_['heading_title'] = 'My Account';
 
 // Text
 $_['text_account'] = 'My Account';
-$_['text_edit'] = 'edit Account Info';
+$_['text_edit'] = 'Edit Account Info';
 $_['text_your_details'] = 'My Profile';
-$_['text_your_address'] = 'my address';
+$_['text_your_address'] = 'My Address';
 $_['text_success'] = 'success: your account has been updated';
 
 // Entry
-$_['entry_firstname'] = 'your name :.';
-$_['entry_lastname'] = 'your name:';
-$_['entry_email'] = 'e-mail :';
+$_['entry_firstname'] = 'First Name :';
+$_['entry_lastname'] = 'Last Name:';
+$_['entry_email'] = 'E-Mail :';
 $_['entry_telephone'] = 'Tel :';
 $_['entry_fax'] = 'Fax Number :';
 $_['entry_company'] = 'Company Name :';
 $_['entry_website'] = 'Company website :';
-$_['entry_address_1'] = 'address 1:';
-$_['entry_address_2'] = 'address 2 :';
+$_['entry_address_1'] = 'Address 1:';
+$_['entry_address_2'] = 'Address 2 :';
 $_['entry_postcode'] = 'Postal Code :';
-$_['entry_city'] = 'city :';
+$_['entry_city'] = 'City :';
 $_['entry_country'] = 'Country:';
 $_['entry_zone'] = 'Region / State :';
 
 // Error
-$_['error_exists'] = 'Warning: ! the email address is already registered , please change an e -mail';
-$_['error_firstname'] = 'name must be between 1-32 characters !';
-$_['error_lastname'] = 'surnames must be between 1-32 characters !';
+$_['error_exists'] = 'Warning: the email address is already registered , please change an e-mail !';
+$_['error_firstname'] = 'first name must be between 1-32 characters !';
+$_['error_lastname'] = 'last name must be between 1-32 characters !';
 $_['error_email'] = 'invalid mailbox address !';
 $_['error_telephone'] = 'phone numbers must be 3-32 bytes !';
 $_['error_address_1'] = 'address length 1 must be between 3-128 characters';

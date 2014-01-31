@@ -3,10 +3,10 @@
 $_['heading_title'] = 'Affiliate Member';
 
 // Text
-$_['text_register'] = 'Registered';
+$_['text_register'] = 'Register';
 $_['text_login'] = 'Login';
 $_['text_logout'] = 'Logout';
-$_['text_forgotten'] = 'forgot password';
+$_['text_forgotten'] = 'Forgot Password';
 $_['text_account'] = 'My Account';
 $_['text_edit'] = 'Edit Account';
 $_['text_password'] = 'Password';

@@ -1,19 +1,19 @@
 <?php
 // Heading
-$_['heading_title'] = 'User login join';
+$_['heading_title'] = 'Login';
 
 // Text
-$_['text_account'] = 'account';
-$_['text_login'] = 'login';
-$_['text_description'] = '<p>%s joining is free, allows users to obtain by placing a link or links on their site advertising or %s to get into any specific product by clicking the join. users link provided and sales of products , users can obtain the corresponding join the commission . current standard commission rate is %s. </p> for more information <p>, please visit our FAQ page or see our . Affiliate Member Terms and conditions </p>';
+$_['text_account'] = 'Account';
+$_['text_login'] = 'Login';
+$_['text_description'] = '<p>%s Joining is free and allows users to obtain by placing a link or links on their site advertising or %s to get into the specific product and any product by clicking on the link provided to join the user and sales, joining users can obtain the appropriate commission. the current standard commission rate is %s. </p> for more information <p>, please visit our FAQ page or see our Affiliate Member Terms and Conditions. </p>';
 $_['text_new_affiliate'] = 'new signing users';
 $_['text_register_account'] = '<p> I have not joined </p> <p> Click to create a new affiliate account . Please note that this is not connected in any way to your customer account </p>';
-$_['text_returning_affiliate'] = 'User login join';
-$_['text_i_am_returning_affiliate'] = 'I already joined user';
-$_['text_forgotten'] = 'forgot password';
+$_['text_returning_affiliate'] = 'Login';
+$_['text_i_am_returning_affiliate'] = 'I already have an account to join';
+$_['text_forgotten'] = 'Forgot Password';
 
 // Entry
-$_['entry_email'] = 'user email address to join :?';
+$_['entry_email'] = 'E-Mail';
 $_['entry_password'] = 'Password :';
 
 // Error

@@ -9,13 +9,13 @@ $_['text_address'] = 'Address:';
 $_['text_email'] = 'Email:';
 $_['text_telephone'] = 'Telephone:';
 $_['text_fax'] = 'Fax:';
-$_['text_message'] = '<p> your message has been sent </p>!';
+$_['text_message'] = '<p> Your message has been sent successfully, we will process within 48 hours.</p>';
 
 // Entry Fields
-$_['entry_name'] = 'your Name:';
-$_['entry_email'] = 'Email address:';
+$_['entry_name'] = 'Name:';
+$_['entry_email'] = 'E-Mail:';
 $_['entry_enquiry'] = 'Advisory Content:';
-$_['entry_captcha'] = 'Please lower box, enter verification code:';
+$_['entry_captcha'] = 'Verification Code:';
 
 // Email
 $_['email_subject'] = 'Message:%s';

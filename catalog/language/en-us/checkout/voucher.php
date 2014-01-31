@@ -1,25 +1,25 @@
 <?php
 // Heading
-$_['heading_title'] = 'buy gift vouchers';
+$_['heading_title'] = 'Buy Gift Vouchers';
 
 // Text
-$_['text_voucher'] = 'gift vouchers';
-$_['text_description'] = 'This gift certificate will receive coupons in the mail to after you pay for. ';
-$_['text_agree'] = 'I understand that this gift certificates are non-refundable . ';
-$_['text_message'] = '<p> Thank you for purchasing gift vouchers this gift voucher will receive coupons in the mail to after you pay </p>!.';
+$_['text_voucher'] = 'Gift Vouchers';
+$_['text_description'] = 'This gift certificate will receive coupons in the mail to the post you pay.';
+$_['text_agree'] = 'I understand that this gift vouchers can not be refunded.';
+$_['text_message'] = '<p>Thank you for purchasing gift vouchers! This gift certificate will receive coupons in the mail to after you pay!</p>';
 $_['text_for'] = '%s gifts coupons to %s';
 
 // Entry
-$_['entry_to_name'] = 'close voucher \'s name : ';
-$_['entry_to_email'] = 'who received vouchers mailbox : ';
-$_['entry_from_name'] = 'Your Name: ';
-$_['entry_from_email'] = 'Your email: ';
+$_['entry_to_name'] = 'Consignee Name:';
+$_['entry_to_email'] = 'Consignee E-Mail:';
+$_['entry_from_name'] = 'Your Name:';
+$_['entry_from_email'] = 'Your E-Mail:';
 $_['entry_message'] = 'Information : <br /> <span class="help" > (optional) </span > ';
-$_['entry_amount'] = 'Total : <br /> <span class="help" > (voucher value must be between %s %s) </span > ';
-$_['entry_theme'] = 'gift vouchers Style: ';
+$_['entry_amount'] = 'Total Amount: <br /> <span class="help" > (voucher value must be between %s %s) </span > ';
+$_['entry_theme'] = 'Gift Vouchers Style: ';
 
 // Error
-$_['error_to_name'] = 'received vouchers names must be 1 - 64 characters !';
+$_['error_to_name'] = 'Consignee Names must be 1 - 64 characters !';
 $_['error_from_name'] = 'Your name must be 1 - 64 characters !';
 $_['error_email'] = 'Invalid email address !';
 $_['error_amount'] = 'voucher value must be between %s %s!';

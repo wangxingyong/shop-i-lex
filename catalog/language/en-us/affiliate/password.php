@@ -3,13 +3,13 @@
 $_['heading_title'] = 'Change Password';
 
 // Text
-$_['text_account'] = 'my account';
-$_['text_password'] = 'Your account password';
+$_['text_account'] = 'My Account';
+$_['text_password'] = 'Your Account Password';
 $_['text_success'] = 'success: your password has been updated.';
 
 // Entry
-$_['entry_password'] = 'enter password:';
-$_['entry_confirm'] = 'Confirm password:';
+$_['entry_password'] = 'Password:';
+$_['entry_confirm'] = 'Confirm Password:';
 
 // Error
 $_['error_password'] = 'password must be between 4-20 characters!';

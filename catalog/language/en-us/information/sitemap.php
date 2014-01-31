@@ -3,7 +3,7 @@
 $_['heading_title'] = 'Site Map';
 
 // Text
-$_['text_special'] = 'Special Offers';
+$_['text_special'] = 'Sale Items';
 $_['text_account'] = 'My Account';
 $_['text_edit'] = 'Account Information';
 $_['text_password'] = 'Password';

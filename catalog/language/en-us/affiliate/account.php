@@ -4,14 +4,14 @@ $_['heading_title'] = 'My Affiliate Account';
 
 // Text
 $_['text_account'] = 'My Account';
-$_['text_my_account'] = 'join my account';
-$_['text_my_tracking'] = 'My tracking information';
-$_['text_my_transactions'] = 'my trading';
-$_['text_edit'] = 'edit My account Information';
+$_['text_my_account'] = 'My Affiliate Account';
+$_['text_my_tracking'] = 'My Tracking Information';
+$_['text_my_transactions'] = 'My Trading';
+$_['text_edit'] = 'Edit Account Information';
 $_['text_password'] = 'Change Password';
-$_['text_payment'] = 'Change the default payment method';
-$_['text_tracking'] = 'user tracking No.';
-$_['text_transaction'] = 'View transaction History';
+$_['text_payment'] = 'Change The Default Payment Method';
+$_['text_tracking'] = 'User Tracking No.';
+$_['text_transaction'] = 'Transactions';
 
 
 // <?php

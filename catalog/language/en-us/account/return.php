@@ -7,9 +7,9 @@ $_['text_account'] = 'Account';
 $_['text_return'] = 'Returned Information';
 $_['text_description'] = '<p> Please complete the form below and get an RMA number </p>.';
 $_['text_order'] = 'Order Information';
-$_['text_product'] = 'product information & Exchange reason';
+$_['text_product'] = 'Product Information & Exchange Reason';
 $_['text_additional'] = 'Additional Information';
-$_['text_message'] = '<p> thank you for submitting your information . the request has been sent to the relevant departments </p> <p> we will notify you by e-mail returned arrange </p>';
+$_['text_message'] = '<p> Thank you for submitting your information . the request has been sent to the relevant departments </p> <p> we will notify you by e-mail returned arrange </p>';
 $_['text_return_id'] = 'Returned Number :';
 $_['text_order_id'] = 'Order Number :';
 $_['text_date_ordered'] = 'Order Date :';
@@ -47,12 +47,12 @@ $_['entry_quantity'] = 'Quantity :';
 $_['entry_reason'] = 'Returned Reasons :';
 $_['entry_opened'] = 'Goods that have been opened :';
 $_['entry_fault_detail'] = 'Flawed or other :';
-$_['entry_captcha'] = 'Please enter the verification code in the box below :';
+$_['entry_captcha'] = 'Verification Code:';
 
 // Error
 $_['error_order_id'] = 'Please enter the order number !';
-$_['error_firstname'] = 'name must be between 1-32 characters !';
-$_['error_lastname'] = 'surnames must between 1 and 32 characters !';
+$_['error_firstname'] = 'first name must be between 1-32 characters !';
+$_['error_lastname'] = 'last name must between 1 and 32 characters !';
 $_['error_email'] = 'invalid email address !';
 $_['error_telephone'] = 'phone numbers must be 3-32 characters';
 !

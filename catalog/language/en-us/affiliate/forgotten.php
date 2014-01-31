@@ -3,14 +3,14 @@
 $_['heading_title'] = 'Forgot Password?';
 
 // Text
-$_['text_account'] = 'my account';
-$_['text_forgotten'] = 'forgot password';
-$_['text_your_email'] = 'your email address';
+$_['text_account'] = 'My Account';
+$_['text_forgotten'] = 'Forgot Password';
+$_['text_your_email'] = 'E-Mail';
 $_['text_email'] = 'Please enter your e-mail address when filling out the registration account, click Continue. Your new password will be sent to you via e-mail!';
 $_['text_success'] = 'Success: The new password has been sent to your mailbox, please check!';
 
 // Entry
-$_['entry_email'] = 'Email address:';
+$_['entry_email'] = 'E-Mail:';
 
 // Error
 $_['error_email'] = 'Warning: This e-mail address is not in our records, please re-try';

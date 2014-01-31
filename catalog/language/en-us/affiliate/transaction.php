@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'my trading';
+$_['heading_title'] = 'My Trading';
 
 // Column
 $_['column_date_added'] = 'Transaction Date';
@@ -8,9 +8,9 @@ $_['column_description'] = 'Description';
 $_['column_amount'] = 'Total (%s)';
 
 // Text
-$_['text_account'] = 'account';
+$_['text_account'] = 'Account';
 $_['text_transaction'] = 'I transaction';
-$_['text_balance'] = 'my trading balance:!?';
+$_['text_balance'] = 'My Trading Balance:';
 $_['text_empty'] = 'You have no transaction record';
 
 
