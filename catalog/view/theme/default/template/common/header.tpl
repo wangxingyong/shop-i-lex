@@ -114,6 +114,7 @@ DD_belatedPNG.fix('#logo img');
 <?php if ($categories) { ?>
 <div id="menu">
   <ul>
+    <li><a href="/">Home</a></li>
     <?php foreach ($categories as $category) { ?>
     <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
       <?php if ($category['children']) { ?>
@@ -130,7 +131,9 @@ DD_belatedPNG.fix('#logo img');
       <?php } ?>
     </li>
     <?php } ?>
-  </ul>
+    <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
+
+    </ul>
 </div>
 <?php } ?>
 <?php if(isset($menu)) {?>

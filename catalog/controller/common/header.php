@@ -77,6 +77,7 @@ class ControllerCommonHeader extends Controller {
 		$this->data['text_my_account'] = sprintf($this->language->get('text_my_account'), $this->url->link('account/account', '', 'SSL'));		
 		$this->data['home'] = $this->url->link('common/home');
 		$this->data['wishlist'] = $this->url->link('account/wishlist');
+        $this->data['special'] = $this->url->link('product/special');
 		$this->data['logged'] = $this->customer->isLogged();
 		$this->data['account'] = $this->url->link('account/account', '', 'SSL');
 		$this->data['cart'] = $this->url->link('checkout/cart');
