@@ -20,11 +20,8 @@
     <div class="content">
       <table class="form">
       	<tr>
-          <td><span class="required">*</span> <?php echo $entry_email; ?></td>
-          <td><input type="text" name="email" readonly="true" value="<?php echo $email; ?>" />
-            <?php if ($error_email) { ?>
-            <span class="error"><?php echo $error_email; ?></span>
-            <?php } ?></td>
+          <td><?php echo $entry_email; ?></td>
+          <td><?php echo $email; ?></td>
         </tr>
         <tr>
           <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>

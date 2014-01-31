@@ -2,7 +2,7 @@
 <?php echo $column_left; ?><?php echo $column_right; ?>
 <div id="content" ><?php echo $content_top; ?>
   <div class="breadcrumb">
-    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+     &raquo; <?php foreach ($breadcrumbs as $breadcrumb) { ?>
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
@@ -37,7 +37,7 @@
     </div>
     <?php } ?>
     <div class="right">
-      <h1><?php echo $heading_title; ?></h1>
+      <h1 style="padding-left: 10px"><?php echo $heading_title; ?></h1>
       <?php if (is_null($dx_url)) { ?>
 
       <div class="description">
@@ -83,7 +83,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <select name="option[<?php echo $option['product_option_id']; ?>]">
             <option value=""><?php echo $text_select; ?></option>
             <?php foreach ($option['option_value'] as $option_value) { ?>
@@ -102,7 +102,7 @@
                   <?php if ($option['required']) { ?>
                   <span class="required">*</span>
                   <?php } ?>
-                  <b><?php echo $option['name']; ?>:</b><br />
+                  <b><?php echo $option['name']; ?>:</b>
                   <select id="product-color" name="option[<?php echo $option['product_option_id']; ?>]" onchange="changeUrl();">
                   	<?php foreach ($option['option_value'] as $option_value) { ?>
                   	    <?php if($product_id==$option_value['color_product_id']){?>
@@ -124,7 +124,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <?php foreach ($option['option_value'] as $option_value) { ?>
           <input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" id="option-value-<?php echo $option_value['product_option_value_id']; ?>" />
           <label for="option-value-<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
@@ -142,7 +142,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <?php foreach ($option['option_value'] as $option_value) { ?>
           <input type="checkbox" name="option[<?php echo $option['product_option_id']; ?>][]" value="<?php echo $option_value['product_option_value_id']; ?>" id="option-value-<?php echo $option_value['product_option_value_id']; ?>" />
           <label for="option-value-<?php echo $option_value['product_option_value_id']; ?>"> <?php echo $option_value['name']; ?>
@@ -160,7 +160,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <input type="text" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option['option_value']; ?>" />
         </div>
         <br />
@@ -170,7 +170,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <textarea name="option[<?php echo $option['product_option_id']; ?>]" cols="40" rows="5"><?php echo $option['option_value']; ?></textarea>
         </div>
         <br />
@@ -180,7 +180,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <a id="button-option-<?php echo $option['product_option_id']; ?>" class="button"><span><?php echo $button_upload; ?></span></a>
           <input type="hidden" name="option[<?php echo $option['product_option_id']; ?>]" value="" />
         </div>
@@ -191,7 +191,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <input type="text" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option['option_value']; ?>" class="date" />
         </div>
         <br />
@@ -201,7 +201,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <input type="text" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option['option_value']; ?>" class="datetime" />
         </div>
         <br />
@@ -211,7 +211,7 @@
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <input type="text" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option['option_value']; ?>" class="time" />
         </div>
         <br />
@@ -250,7 +250,7 @@
 	   <!-- tag end -->
 	  <?php if ($review_status) { ?>
       <div class="review">
-        <div><img src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" />&nbsp;&nbsp;<a rel="nofollow" onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
+        <div><img style="padding-bottom: 5px;" src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" />&nbsp;&nbsp;<a rel="nofollow" onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
       </div>
       <?php } ?>
 	   <div class="share">

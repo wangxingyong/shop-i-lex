@@ -1,5 +1,5 @@
 <?php
-$_['text_credit'] = 'merchant credit';
+$_['text_credit'] = 'Merchant Credit';
 $_['text_order_id'] = 'Order Number: #%s';
 
 

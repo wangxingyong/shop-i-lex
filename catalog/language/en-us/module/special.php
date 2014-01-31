@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Specials';
+$_['heading_title'] = 'Specials Products';
 
 // Text
 $_['text_reviews'] = 'get %s stars!';

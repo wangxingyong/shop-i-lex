@@ -1,52 +1,52 @@
 <?php
 // Heading
-$_['heading_title'] = 'merchandise returned';
+$_['heading_title'] = 'Merchandise Returned';
 
 // Text
 $_['text_account'] = 'Account';
-$_['text_return'] = 'returned information';
+$_['text_return'] = 'Returned Information';
 $_['text_description'] = '<p> Please complete the form below and get an RMA number </p>.';
-$_['text_order'] = 'order information';
+$_['text_order'] = 'Order Information';
 $_['text_product'] = 'product information & Exchange reason';
-$_['text_additional'] = 'additional information';
-$_['text_message'] = '<p> returned thank you for submitting your information . the request has been sent to the relevant departments </p> <p> we will notify you by e-mail returned arrange </p>';
-$_['text_return_id'] = 'returned number :';
-$_['text_order_id'] = 'order number :';
-$_['text_date_ordered'] = 'Order date :';
-$_['text_status'] = 'status :';
-$_['text_date_added'] = 'Date added :';
+$_['text_additional'] = 'Additional Information';
+$_['text_message'] = '<p> thank you for submitting your information . the request has been sent to the relevant departments </p> <p> we will notify you by e-mail returned arrange </p>';
+$_['text_return_id'] = 'Returned Number :';
+$_['text_order_id'] = 'Order Number :';
+$_['text_date_ordered'] = 'Order Date :';
+$_['text_status'] = 'Status :';
+$_['text_date_added'] = 'Date Added :';
 $_['text_customer'] = 'Member :';
-$_['text_comment'] = 'returned Remarks';
-$_['text_products'] = 'product :';
-$_['text_history'] = 'returned records';
+$_['text_comment'] = 'Returned Remarks';
+$_['text_products'] = 'Product :';
+$_['text_history'] = 'Returned Records';
 $_['text_empty'] = 'You have not returned record !';
 $_['text_error'] = 'Can not find relevant records returned !';
 
 // Column
-$_['column_name'] = 'name';
-$_['column_model'] = 'models';
-$_['column_quantity'] = 'number';
-$_['column_price'] = 'price';
-$_['column_opened'] = 'opening';
+$_['column_name'] = 'Name';
+$_['column_model'] = 'Models';
+$_['column_quantity'] = 'Quantity';
+$_['column_price'] = 'Price';
+$_['column_opened'] = 'Opening';
 $_['column_comment'] = 'Note';
-$_['column_reason'] = 'reason';
-$_['column_action'] = 'management';
-$_['column_date_added'] = 'purchase date';
-$_['column_status'] = 'status';
+$_['column_reason'] = 'Reason';
+$_['column_action'] = 'Management';
+$_['column_date_added'] = 'Purchase Date';
+$_['column_status'] = 'Status';
 
 // Entry
 $_['entry_order_id'] = 'Order Number :';
 $_['entry_date_ordered'] = 'Order Date :';
-$_['entry_firstname'] = 'your Name :';
-$_['entry_lastname'] = 'your last name :';
-$_['entry_email'] = 'e-mail :';
-$_['entry_telephone'] = 'Tel :';
-$_['entry_product'] = 'product name :';
-$_['entry_model'] = 'product Model :';
+$_['entry_firstname'] = 'First Name :';
+$_['entry_lastname'] = 'Last Name :';
+$_['entry_email'] = 'E-Mail :';
+$_['entry_telephone'] = 'Tel:';
+$_['entry_product'] = 'Product:';
+$_['entry_model'] = 'Model :';
 $_['entry_quantity'] = 'Quantity :';
-$_['entry_reason'] = 'returned reasons :';
-$_['entry_opened'] = 'goods that have been opened :';
-$_['entry_fault_detail'] = 'flawed or other :';
+$_['entry_reason'] = 'Returned Reasons :';
+$_['entry_opened'] = 'Goods that have been opened :';
+$_['entry_fault_detail'] = 'Flawed or other :';
 $_['entry_captcha'] = 'Please enter the verification code in the box below :';
 
 // Error

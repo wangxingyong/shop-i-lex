@@ -7,13 +7,13 @@ $_['text_issue'] = '( Maestro and Solo cards only )';
 $_['text_wait'] = 'Please wait !';
 
 // Entry
-$_['entry_cc_owner'] = 'cardholder :';
+$_['entry_cc_owner'] = 'Cardholder :';
 $_['entry_cc_type'] = 'Bank :';
-$_['entry_cc_number'] = 'number:';
-$_['entry_cc_start_date'] = 'card validity date :';
-$_['entry_cc_expire_date'] = 'card expires maturity :';
-$_['entry_cc_cvv2'] = 'Credit Card security Code (CVV2):';
-$_['entry_cc_issue'] = 'Credit Card issue Number :';
+$_['entry_cc_number'] = 'Number:';
+$_['entry_cc_start_date'] = 'Card Validity Date :';
+$_['entry_cc_expire_date'] = 'Card Expires Date:';
+$_['entry_cc_cvv2'] = 'Credit Card Security Code (CVV2):';
+$_['entry_cc_issue'] = 'Credit Card Issue Number :';
 
 // Error
 $_['error_required'] = 'error : All payments need to submit complete information';

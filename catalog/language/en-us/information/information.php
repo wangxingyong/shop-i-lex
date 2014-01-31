@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_error'] = 'page not found message!';
+$_['text_error'] = 'message page not found !';
 
 
 // <?php

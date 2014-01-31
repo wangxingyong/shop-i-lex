@@ -69,7 +69,7 @@
     <table class="list">
       <thead>
         <tr>
-          <td class="left"><?php echo $column_name; ?></td>
+          <td class="left" style="width: 500px"><?php echo $column_name; ?></td>
           <td class="left"><?php echo $column_model; ?></td>
           <td class="right"><?php echo $column_quantity; ?></td>
           <td class="right"><?php echo $column_price; ?></td>
@@ -79,7 +79,8 @@
       <tbody>
         <?php foreach ($products as $product) { ?>
         <tr>
-          <td class="left"><?php echo $product['name']; ?>
+          <td class="left">
+            <a href="<?php echo $product['href']; ?>"> <?php echo $product['name']; ?></a>
             <?php foreach ($product['option'] as $option) { ?>
             <br />
             &nbsp;<small> - <?php echo $option['name']; ?>: <?php echo $option['value']; ?></small>

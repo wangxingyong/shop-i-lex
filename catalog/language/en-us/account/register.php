@@ -1,23 +1,56 @@
 <?php
+
 // Heading
-$_['heading_title'] = 'Change Password';
+$_['heading_title'] ='User Registration';
 
 // Text
-$_['text_account'] = 'My Account';
-$_['text_success'] = 'success: your password has been updated.';
+$_['text_account'] ='My Account';
+$_['text_register'] ='User Registration';
+$_['text_account_already'] ='Welcome to our store, if you are a new user , please fill out the form below to register. If you are already a member of this site , please direct <a href="%s"> Login </a> ';
+$_['text_your_details'] ='Your Profile';
+$_['text_your_address'] ='Your Address';
+$_['text_newsletter'] ='Select the subscription mode';
+$_['text_your_password'] ='Your account password';
+$_['text_agree'] ='I have read and agree to the terms <a class="fancybox" href="%s" alt="%s"> <b>% s </b> </a>';
 
 // Entry
-$_['entry_old_password'] = 'original password:';
-$_['entry_password'] = 'new password:';
-$_['entry_confirm'] = 'Confirm password:';
+$_['entry_name'] ='Username:';
+$_['entry_firstname'] ='First Name:';
+$_['entry_lastname'] ='Last Name:';
+$_['entry_email'] ='E-mail:';
+$_['entry_telephone'] ='Tel:';
+$_['entry_fax'] ='Fax Number:';
+$_['entry_company'] ='Company Name:';
+$_['entry_address_1'] ='Address 1:';
+$_['entry_address_2'] ='Address 2:';
+$_['entry_postcode'] ='Postal Code:';
+$_['entry_city'] ='City:';
+$_['entry_country'] ='Country:';
+$_['entry_zone'] ='Region / State:';
+$_['entry_newsletter'] ='Subscription Information:';
+$_['entry_password'] ='Enter password:';
+$_['entry_confirm'] ='Confirm password :';
+
+$_['text_refresh_captcha'] ='Click image to replace the verification code';
 
 // Button
-$_['button_confirm'] = 'Change Password';
+$_['button_register'] ='Registered';
 
 // Error
-$_['error_old_password'] = 'original password is wrong!';
-$_['error_password'] = 'the new password must be between 4-20 characters!';
-$_['error_confirm'] = 'Confirm password is inconsistent with the new password';
+$_['error_username'] ='Username must be between 1-32 characters !';
+$_['error_exists'] ='Warning: ! The email address is already registered , please e-mail for a';
+$_['error_firstname'] = 'first names must be between 1-32 characters!';
+$_['error_lastname'] ='last name must be between 1-32 characters !';
+$_['error_email'] ='Invalid email address !';
+$_['error_telephone'] ='phone numbers must be 3-32 bytes !';
+$_['error_password'] ='Password must be between 3-20 characters !';
+$_['error_confirm'] ='Confirm Password and enter the password inconsistent !';
+$_['error_address_1'] ='address length 1 must be between 3-128 characters !';
+$_['error_city'] ='city name must be between 3-128 bytes !';
+$_['error_postcode'] ='Code must be between 2-10 characters !';
+$_['error_country'] ='Please select a country !';
+$_['error_zone'] ='Please select a region / province !';
+$_['error_agree'] ='Warning : you do not agree to the terms of % s!';
 
 
 // <?php

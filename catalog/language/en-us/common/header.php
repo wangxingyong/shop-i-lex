@@ -2,7 +2,7 @@
 // Text
 $_['text_home'] = 'Home';
 $_['text_wishlist'] = 'Favorites (%s)';
-$_['text_cart'] = 'Cart';
+$_['text_cart'] = 'Shopping Cart';
 $_['text_items'] = '%s item(s) - %s';
 $_['text_search'] = 'Search';
 $_['text_welcome'] = 'Welcome&nbsp;&nbsp;[<a href="/"><strong>%s</strong></a>]&nbsp;&nbsp; [<a Rel="nofollow" href="%s">Sign In</a> | <a rel="nofollow" href="%s">Register</a>]';

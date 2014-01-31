@@ -1,27 +1,27 @@
 <?php
 // Text
 $_['text_refine'] = 'Categories';
-$_['text_product'] = 'product';
-$_['text_error'] = 'category does not exist !';
-$_['text_empty'] = 'Sorry ! There are no related products for this classification .';
+$_['text_product'] = 'Product';
+$_['text_error'] = 'Category does not exist !';
+$_['text_empty'] = 'Sorry, There are no related products for this classification !';
 $_['text_quantity'] = 'Quantity :';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model'] = 'Model:';
-$_['text_points'] = 'points :';
+$_['text_points'] = 'Points :';
 $_['text_price'] = 'Price :';
 $_['text_tax'] = 'BEFORE :';
 $_['text_reviews'] = '%s -based evaluation .';
-$_['text_compare'] = 'Contrast (%s)';
-$_['text_display'] = 'display:';
-$_['text_list'] = 'list';
-$_['text_grid'] = 'grid';
+$_['text_compare'] = 'Contrast Product [%s]';
+$_['text_display'] = 'Display Type:';
+$_['text_list'] = 'List';
+$_['text_grid'] = 'Grid';
 $_['text_sort'] = 'Sort by:';
 $_['text_default'] = 'default';
 $_['text_name_asc'] = 'Name A - Z';
 $_['text_name_desc'] = 'Name Z - A';
 $_['text_price_asc'] = 'Price Low> High';
 $_['text_price_desc'] = 'Price High > Low';
-$_['text_rating_asc'] = 'lowest score';
+$_['text_rating_asc'] = 'Lowest score';
 $_['text_rating_desc'] = 'Top Rated';
 $_['text_model_asc'] = 'Model A - Z';
 $_['text_model_desc'] = 'Model Z - A';

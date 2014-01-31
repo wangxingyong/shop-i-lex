@@ -26,7 +26,7 @@
                   <?php } ?></td>
               </tr>
                 <tr>
-                    <td>待销的链接URL</td>
+                    <td>代销的链接URL</td>
                     <td><input type="text" name="dxUrl" value="<?php echo $dx_url; ?>" /></td>
                 </tr>
               <tr>

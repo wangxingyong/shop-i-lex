@@ -1,33 +1,33 @@
 <?php
 // Heading
-$_['heading_title'] = 'account';
+$_['heading_title'] = 'Account';
 
 // Text
-$_['text_register'] = 'registered';
+$_['text_register'] = 'Registered';
 $_['text_login'] = 'Login';
 $_['text_logout'] = 'Logout';
-$_['text_forgotten'] = 'forgot password';
+$_['text_forgotten'] = 'Forgot Password';
 $_['text_account'] = 'My Account';
-$_['text_edit'] = 'edit Account';
-$_['text_password'] = 'password';
-$_['text_wishlist'] = 'favorites list';
-$_['text_order'] = 'Order History';
-$_['text_return'] = 'returned';
+$_['text_edit'] = 'Edit Account';
+$_['text_password'] = 'Password';
+$_['text_wishlist'] = 'Favorites List';
+$_['text_order'] = 'Order List';
+$_['text_return'] = 'Returned';
 $_['text_my_orders'] = 'My Orders';
 $_['text_my_newsletter'] = 'My Subscriptions';
 $_['text_password'] = 'Change Password';
-$_['text_address'] = 'My Address Book';
-$_['text_download'] = 'Download commodities';
+$_['text_address'] = 'Address Book';
+$_['text_download'] = 'Download Commodities';
 $_['text_reward'] = 'My Points';
-$_['text_transaction'] = 'my balance records';
+$_['text_transaction'] = 'My Balance List';
 $_['text_newsletter'] = 'Subscribe / unsubscribe';
-$_['text_invite'] = 'invite Friends';
+$_['text_invite'] = 'Invite Friends';
 
-$_['text_orders'] = 'transaction Management';
-$_['text_service'] = 'service center';
-$_['text_info'] = 'personal information management';
-$_['text_application'] = 'individual application management';
-$_['text_member_center'] = 'user -centric';
+$_['text_orders'] = 'Transaction Management';
+$_['text_service'] = 'Service Center';
+$_['text_info'] = 'Information Management';
+$_['text_application'] = 'Application Management';
+$_['text_member_center'] = 'User Center';
 
 
 // <?php

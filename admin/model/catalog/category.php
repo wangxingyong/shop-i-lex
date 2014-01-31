@@ -110,14 +110,16 @@ class ModelCatalogCategory extends Model {
 		return $query->row;
 	} 
 	
-	public function getCategories($parent_id) {
-		$category_data = $this->cache->get('category.' . $this->config->get('config_language_id') . '.' . $parent_id);
-	
-		if (!$category_data) {
+	public function getCategories($parent_id, $status) {
+		$category_data = $this->cache->get('category.' . $this->config->get('config_language_id') . '.' . $parent_id . '.' . $status);
+
+        if (!$category_data) {
 			$category_data = array();
-		
-			$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "category c LEFT JOIN " . DB_PREFIX . "category_description cd ON (c.category_id = cd.category_id) WHERE c.parent_id = '" . (int)$parent_id . "' AND cd.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY c.sort_order, cd.name ASC");
-		
+		    if(!is_null($status)){
+                $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "category c LEFT JOIN " . DB_PREFIX . "category_description cd ON (c.category_id = cd.category_id) WHERE c.status = '" . (int)$status. "' AND c.parent_id = '" . (int)$parent_id . "' AND cd.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY c.sort_order, cd.name ASC");
+            }else{
+			    $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "category c LEFT JOIN " . DB_PREFIX . "category_description cd ON (c.category_id = cd.category_id) WHERE c.parent_id = '" . (int)$parent_id . "' AND cd.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY c.sort_order, cd.name ASC");
+            }
 			foreach ($query->rows as $result) {
 				$category_data[] = array(
 					'category_id' => $result['category_id'],
@@ -127,7 +129,7 @@ class ModelCatalogCategory extends Model {
 					'sort_order'  => $result['sort_order']
 				);
 			
-				$category_data = array_merge($category_data, $this->getCategories($result['category_id']));
+				$category_data = array_merge($category_data, $this->getCategories($result['category_id'],$status));
 			}	
 	
 			$this->cache->set('category.' . $this->config->get('config_language_id') . '.' . $parent_id, $category_data);

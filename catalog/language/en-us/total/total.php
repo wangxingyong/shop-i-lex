@@ -1,5 +1,5 @@
 <?php
-$_['text_total'] = 'order total';
+$_['text_total'] = 'The total order';
 
 
 // <?php

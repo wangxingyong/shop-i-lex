@@ -5,15 +5,15 @@ $_['heading_title'] = 'User login';
 // Text
 $_['text_account'] = 'Account';
 $_['text_login'] = 'Login';
-$_['text_new_customer'] = 'user Registration';
-$_['text_register'] = 'registered accounts';
-$_['text_register_account'] = 'register an account so that you can shop more quickly, Check order status, view purchase history, and more management projects.';
-$_['text_returning_customer'] = 'Member Login';
+$_['text_new_customer'] = 'Registration';
+$_['text_register'] = 'Registered Accounts';
+$_['text_register_account'] = 'Register an account so that you can shop more quickly, Check order status, view purchase history, and more management projects.';
+$_['text_returning_customer'] = 'Login';
 $_['text_i_am_returning_customer'] = 'If you are already a member of this site Please log in';
-$_['text_forgotten'] = 'forgot password';
+$_['text_forgotten'] = 'Forgot Password';
 
 // Entry
-$_['entry_email'] = 'E-mail address:';
+$_['entry_email'] = 'E-mail:';
 $_['entry_password'] = 'Password:';
 
 // Error

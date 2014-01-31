@@ -3,21 +3,21 @@
 $_['heading_title'] = 'Product Comparison';
 
 // Text 
-$_['text_product'] = 'product details';
-$_['text_name'] = 'product';
-$_['text_image'] = 'image';
-$_['text_price'] = 'price';
-$_['text_model'] = 'models';
-$_['text_manufacturer'] = 'brand';
-$_['text_availability'] = 'inventory';
-$_['text_instock'] = 'stock';
-$_['text_rating'] = 'evaluation';
-$_['text_reviews'] = '%s-based evaluation.';
-$_['text_summary'] = 'summary';
+$_['text_product'] = 'Product Details';
+$_['text_name'] = 'Name';
+$_['text_image'] = 'Image';
+$_['text_price'] = 'Price';
+$_['text_model'] = 'Models';
+$_['text_manufacturer'] = 'Brand';
+$_['text_availability'] = 'Inventory';
+$_['text_instock'] = 'Stock';
+$_['text_rating'] = 'Evaluation';
+$_['text_reviews'] = '<span><strong style="color: #E20C3A;font-size: 20px">%s</strong> of buyers enjoyed this product!</span>';
+$_['text_summary'] = 'Summary';
 $_['text_weight'] = 'Weight';
 $_['text_dimension'] = 'Size (L x W x H)';
-$_['text_remove'] = 'delete';
-$_['text_compare'] = 'Contrast (%s)';
+$_['text_remove'] = 'Delete';
+$_['text_compare'] = 'Contrast Product [%s]';
 $_['text_success'] = 'Success: You have added <a href="%s">%s </a> to your <a href="%s"> Product Comparison Table </a>!';
 $_['text_empty'] = 'You have not selected any products to compare.';
 

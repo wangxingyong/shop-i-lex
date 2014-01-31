@@ -1,5 +1,5 @@
 <?php
-$_['text_sub_total'] = 'total amount';
+$_['text_sub_total'] = 'The total amount of goods';
 
 
 // <?php

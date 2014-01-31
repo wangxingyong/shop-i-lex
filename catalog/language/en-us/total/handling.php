@@ -1,5 +1,5 @@
 <?php
-$_['text_handling'] = 'fee';
+$_['text_handling'] = 'Fee';
 
 
 // <?php

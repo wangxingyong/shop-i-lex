@@ -26,7 +26,7 @@
           <thead>
             <tr>
               <td class="image"><?php echo $column_image; ?></td>
-              <td class="name"><?php echo $column_name; ?></td>
+              <td class="name" style="width: 600px"><?php echo $column_name; ?></td>
               <td class="model"><?php echo $column_model; ?></td>
               <td class="quantity"><?php echo $column_quantity; ?></td>
               <td class="price"><?php echo $column_price; ?></td>
@@ -42,7 +42,7 @@
                 <?php } ?></td>
               <td class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                 <?php if (!$product['stock']) { ?>
-                <span class="stock">***</span>
+                <br/><span class="stock">*** (Note: Inventory shortage)</span>
                 <?php } ?>
                 <div>
                   <?php foreach ($product['option'] as $option) { ?>

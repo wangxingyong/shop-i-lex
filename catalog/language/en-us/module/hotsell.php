@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Category Hot';
+$_['heading_title'] = 'Hot Categories';
 
 // Text
 $_['text_reviews'] = 'Based on %s reviews.';

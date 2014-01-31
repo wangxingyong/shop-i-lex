@@ -35,11 +35,12 @@
   </div>
 </div>
 
-<div id="powered"><?php echo $powered; ?> <?php echo $google_analytics; ?></div>
+<div id="powered"><?php echo $powered; ?></div>
 
 </div>
 </div>
 </body>
+<?php echo $google_analytics; ?>
 <script type="text/javascript" src="catalog/view/javascript/jquery/go-top.js"></script>
 <script type="text/javascript">
 /* <![CDATA[ */

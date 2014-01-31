@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Brands';
+$_['heading_title'] = 'Brands Zone';
 
 
 // <?php

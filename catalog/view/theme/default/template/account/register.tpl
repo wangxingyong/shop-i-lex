@@ -10,6 +10,7 @@
   <div class="warning"><?php echo $error_warning; ?></div>
   <?php } ?>
   <p><?php echo $text_account_already; ?></p>
+  <br/>
   <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="register">
     <h2><?php echo $text_your_details; ?></h2>
     <div class="content">

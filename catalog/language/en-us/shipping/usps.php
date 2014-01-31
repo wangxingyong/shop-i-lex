@@ -2,7 +2,7 @@
 // Text
 $_['text_title'] = 'U.S. Postal Service';
 $_['text_weight'] = 'Weight:';
-$_['text_eta'] = 'estimated time:';
+$_['text_eta'] = 'Estimated Time:';
 
 
 // <?php

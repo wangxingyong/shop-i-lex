@@ -1,18 +1,18 @@
 <?php
 // Text
-$_['text_title'] = 'credit or debit card (properly handled by PayPal)';
-$_['text_credit_card'] = 'credit card information';
+$_['text_title'] = 'Credit or Debit Card (properly handled by PayPal)';
+$_['text_credit_card'] = 'Credit Card Information';
 $_['text_start_date'] = '(if available)';
 $_['text_issue'] = '(for Maestro and Solo cards only)';
-$_['text_wait'] = 'Please wait!';
+$_['text_wait'] = 'Please Wait!';
 
 // Entry
 $_['entry_cc_type'] = 'Bank:';
-$_['entry_cc_number'] = 'card:';
-$_['entry_cc_start_date'] = 'card from the effective date:';
-$_['entry_cc_expire_date'] = 'card expiry date:';
-$_['entry_cc_cvv2'] = 'Credit Card security Code (CVV2):';
-$_['entry_cc_issue'] = 'card issue number:';
+$_['entry_cc_number'] = 'Card:';
+$_['entry_cc_start_date'] = 'Card From The Effective Date:';
+$_['entry_cc_expire_date'] = 'Card Expiry Date:';
+$_['entry_cc_cvv2'] = 'Credit Card Security Code (CVV2):';
+$_['entry_cc_issue'] = 'Card Issue number:';
 
 
 // <?php

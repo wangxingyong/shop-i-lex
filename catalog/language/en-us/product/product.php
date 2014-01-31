@@ -1,47 +1,47 @@
 <?php
 //Text
 $_['text_search'] = 'Search';
-$_['text_brand'] = 'brand';
+$_['text_brand'] = 'Brand';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model'] = 'Type:';
 $_['text_reward'] = 'Integral:';
 $_['text_points'] = 'Use The Integral:';
 $_['text_stock'] = 'Stock:';
-$_['text_instock'] = 'LOT OF';
+$_['text_instock'] = 'A LOT OF';
 $_['text_price'] = 'Price:';
 $_['text_tax'] = 'BEFORE :';
-$_['text_discount'] = 'quantity discounts :%s -%s';
-$_['text_option'] = 'options and accessories :';
+$_['text_discount'] = 'Quantity Discounts :%s -%s';
+$_['text_option'] = 'Options And Accessories :';
 $_['text_qty'] = 'Quantity :';
 $_['text_minimum'] = '( MOQ of this product is %s)';
 $_['text_or'] = '  ';
-$_['text_reviews'] = '%s who have evaluated';
-$_['text_write'] = 'comment';
-$_['text_no_reviews'] = 'No comment for this product .';
+$_['text_reviews'] = '<span><strong style="color: #E20C3A;font-size: 20px">%s</strong> of buyers enjoyed this product!</span>';
+$_['text_write'] = 'Feedback';
+$_['text_no_reviews'] = 'No Feedback.';
 $_['text_note'] = '<span style="color: #FF0000;"> Note : </span> Comment HTML is not !';
-$_['text_share'] = 'shared';
+$_['text_share'] = 'Shared';
 $_['text_success'] = 'Thank you for your evaluation.';
 $_['text_upload'] = 'Successfully uploaded file !';
 $_['text_wait'] = 'Please wait !';
 $_['text_tags'] = 'Tags:';
 $_['text_error'] = 'This product does not exist !';
-$_['text_login_review'] = 'user purchased this product to be evaluated';
-$_['text_no_name'] = 'anonymous';
+$_['text_login_review'] = 'Only bought this product users can be evaluated';
+$_['text_no_name'] = 'Anonymous';
 
 //Entry
 $_['entry_name'] = 'Your Name:';
 $_['entry_review'] = 'Your rating:';
 $_['entry_rating'] = 'Customer Rating:';
-$_['entry_good'] = 'praise';
-$_['entry_bad'] = 'bad';
+$_['entry_good'] = 'Praise';
+$_['entry_bad'] = 'Bad';
 $_['entry_captcha'] = 'Please enter the verification code in the box below :';
 
 //Tabs
-$_['tab_description'] = 'product details';
-$_['tab_attribute'] = 'standard';
-$_['tab_review'] = 'product reviews ( there are %s ratings )';
+$_['tab_description'] = 'Product Details';
+$_['tab_attribute'] = 'Specifications';
+$_['tab_review'] = 'Feedback (%s)';
 $_['tab_related'] = 'Related Products';
-$_['tab_related_images'] = 'more pictures';
+$_['tab_related_images'] = 'More Pictures';
 //Error
 $_['error_name'] = 'Warning: The evaluator name must be between 1-25 characters !';
 $_['error_text'] = 'Warning : content must be between 1 and 1000 characters !';

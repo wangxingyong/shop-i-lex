@@ -1,25 +1,25 @@
 <?php
 // Heading
-$_['heading_title'] = 'View your favorite brands';
+$_['heading_title'] = 'View Your Favorite Brands';
 
 // Text
-$_['text_brand'] = 'brand';
-$_['text_index'] = 'brand list :';
-$_['text_error'] = 'Can not find the brand !';
+$_['text_brand'] = 'Brand';
+$_['text_index'] = 'Brand List:';
+$_['text_error'] = 'Can Not Find The Brand !';
 $_['text_empty'] = 'no this brand merchandise .';
 $_['text_quantity'] = 'Quantity :';
-$_['text_manufacturer'] = 'brand :';
-$_['text_model'] = 'product Model :';
-$_['text_points'] = 'points :';
+$_['text_manufacturer'] = 'Brand :';
+$_['text_model'] = 'Product Model :';
+$_['text_points'] = 'Points :';
 $_['text_price'] = 'Price :';
 $_['text_tax'] = 'BEFORE :';
 $_['text_reviews'] = '%s -based evaluation .';
-$_['text_compare'] = 'contrast (%s)';
-$_['text_display'] = 'display :';
-$_['text_list'] = 'list';
-$_['text_grid'] = 'grid';
-$_['text_sort'] = 'Sort by :';
-$_['text_default'] = 'default';
+$_['text_compare'] = 'Contrast (%s)';
+$_['text_display'] = 'Display :';
+$_['text_list'] = 'List';
+$_['text_grid'] = 'Grid';
+$_['text_sort'] = 'Sort By :';
+$_['text_default'] = 'Default';
 $_['text_name_asc'] = 'name A - Z';
 $_['text_name_desc'] = 'name Z - A';
 $_['text_price_asc'] = 'Price Low> High';

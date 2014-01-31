@@ -14,7 +14,14 @@
             <li><a onclick="$('#form').attr('action', '<?php echo $enabled; ?>'); $('#form').submit();"><?php echo $button_enable;?></a></li>
             <li><a onclick="$('#form').attr('action', '<?php echo $disabled; ?>'); $('#form').submit();"><?php echo $button_disable;?></a></li>
           </ul>
+
+            <button class="btn btn-small dropdown-toggle" data-toggle="dropdown">状态筛选<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a onclick="$('#form').attr('action', '<?php echo $status_enabled; ?>'); $('#form').submit();">启用</a></li>
+                <li><a onclick="$('#form').attr('action', '<?php echo $status_disabled; ?>'); $('#form').submit();">停用</a></li>
+            </ul>
         </div>
+    </div>
         <div class="buttons" >
 	 		<input type="button" onclick="location = '<?php echo $insert; ?>'" class="btn btn-primary" value="<?php echo $button_insert; ?>">
 		 </div>

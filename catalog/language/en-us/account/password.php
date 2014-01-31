@@ -7,15 +7,15 @@ $_['text_account'] = 'My Account';
 $_['text_success'] = 'success: your password has been updated.';
 
 // Entry
-$_['entry_old_password'] = 'original password:';
-$_['entry_password'] = 'new password:';
-$_['entry_confirm'] = 'Confirm password:';
+$_['entry_old_password'] = 'Original Password:';
+$_['entry_password'] = 'New Password:';
+$_['entry_confirm'] = 'Confirm Password:';
 
 // Button
 $_['button_confirm'] = 'Change Password';
 
 // Error
-$_['error_old_password'] = 'original password is wrong!';
+$_['error_old_password'] = 'Original password is wrong!';
 $_['error_password'] = 'the new password must be between 4-20 characters!';
 $_['error_confirm'] = 'Confirm password is inconsistent with the new password';
 

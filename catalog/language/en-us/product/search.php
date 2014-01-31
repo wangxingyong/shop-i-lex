@@ -4,24 +4,24 @@ $_['heading_title'] = 'Search';
 
 // Text
 $_['text_search'] = 'products that match the search criteria';
-$_['text_keyword'] = 'keyword';
+$_['text_keyword'] = 'Keyword';
 $_['text_category'] = 'All Categories';
-$_['text_sub_category'] = 'search subdirectories';
-$_['text_critea'] = 'search';
+$_['text_sub_category'] = 'Search Subdirectories';
+$_['text_critea'] = 'Search';
 $_['text_empty'] = 'There are no products that match the search criteria.';
 $_['text_quantity'] = 'Quantity :';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model'] = 'Model:';
-$_['text_points'] = 'points :';
+$_['text_points'] = 'Points :';
 $_['text_price'] = 'Price :';
 $_['text_tax'] = 'BEFORE :';
 $_['text_reviews'] = '%s -based evaluation .';
 $_['text_compare'] = 'Contrast (%s)';
-$_['text_display'] = 'display:';
-$_['text_list'] = 'list';
-$_['text_grid'] = 'grid';
-$_['text_sort'] = 'Sort by:';
-$_['text_default'] = 'default';
+$_['text_display'] = 'Display:';
+$_['text_list'] = 'List';
+$_['text_grid'] = 'Grid';
+$_['text_sort'] = 'Sort By:';
+$_['text_default'] = 'Default';
 $_['text_name_asc'] = 'Name A - Z';
 $_['text_name_desc'] = 'Name Z - A';
 $_['text_price_asc'] = 'Price Low> High';
@@ -33,9 +33,9 @@ $_['text_model_desc'] = 'Model Z - A';
 $_['text_limit'] = 'Show:';
 
 // Entry
-$_['entry_search'] = 'Search for:';
+$_['entry_search'] = 'Search For:';
 $_['entry_description'] = 'Search Details';
-$_['entry_model'] = 'Search in product model';
+$_['entry_model'] = 'Search in Product Model';
 
 
 // <?php

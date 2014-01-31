@@ -3,8 +3,8 @@
 $_['heading_title'] = 'Add Note';
 
 // Text
-$_['text_comment'] = 'order notes';
-$_['text_success'] = 'success:! your notes have been added';
+$_['text_comment'] = 'Order Notes';
+$_['text_success'] = 'Your comment has been added successfully!';
 
 // Entry
 $_['entry_comment'] = 'Please enter the remark:';

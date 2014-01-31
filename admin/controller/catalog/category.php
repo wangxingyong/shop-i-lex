@@ -8,9 +8,18 @@ class ControllerCatalogCategory extends Controller {
 		$this->document->setTitle($this->language->get('heading_title'));
 		
 		$this->load->model('catalog/category');
-		
+
 		$this->getList();
 	}
+    public function listByStatus($status) {
+        $this->load_language('catalog/category');
+
+        $this->document->setTitle($this->language->get('heading_title'));
+
+        $this->load->model('catalog/category');
+
+        $this->getList();
+    }
 
 	public function insert() {
 		$this->load_language('catalog/category');
@@ -107,9 +116,16 @@ class ControllerCatalogCategory extends Controller {
 		$this->data['delete'] = $this->url->link('catalog/category/delete', 'token=' . $this->session->data['token'], 'SSL');
 		$this->data['enabled'] = $this->url->link('catalog/category/changeStatus', 'status=1&token=' . $this->session->data['token'], 'SSL');
 		$this->data['disabled'] = $this->url->link('catalog/category/changeStatus', 'status=0&token=' . $this->session->data['token'], 'SSL');
-		$this->data['categories'] = array();
-		
-		$results = $this->model_catalog_category->getCategories(0);
+        $this->data['status_enabled'] = $this->url->link('catalog/category/listByStatus', 'status=1&token=' . $this->session->data['token'], 'SSL');
+        $this->data['status_disabled'] = $this->url->link('catalog/category/listByStatus', 'status=0&token=' . $this->session->data['token'], 'SSL');
+        $this->data['status_all'] = $this->url->link('catalog/category/listByStatus', 'token=' . $this->session->data['token'], 'SSL');
+        $this->data['categories'] = array();
+
+        $status = $this->request->get['status'];
+        if(is_null($status)){
+            $status = 1;
+        }
+		$results = $this->model_catalog_category->getCategories(0, $status);
 
 		foreach ($results as $result) {
 			$action = array();

@@ -5,18 +5,18 @@ $_['heading_title'] = 'Invite Friends';
 // Text
 $_['text_invite_list'] = 'has accepted an invitation';
 $_['text_account'] = 'My Account';
-$_['text_forgotten'] = 'forgot password';
-$_['text_your_email'] = 'Email address';
+$_['text_forgotten'] = 'Forgot Password';
+$_['text_your_email'] = 'My Friend E-mail';
 $_['text_email'] = 'Please enter your e-invitation e-mail address, click Continue';
-$_['text_success'] = 'success: an invitation has been sent!';
-$_['text_invite_copy'] = 'Copy invitation link';
+$_['text_success'] = 'Success: an invitation has been sent!';
+$_['text_invite_copy'] = 'Invitation Link';
 $_['text_success_invite_copy'] = 'Copy invitation link success';
-$_['text_invite_sns'] = 'by SNS invitation';
-$_['text_invite_description'] = 'invite your friends to invite successful integration will have a chance to get rich site, inviting the more, the more points';
+$_['text_invite_sns'] = 'By SNS Invitation';
+$_['text_invite_description'] = 'Invite your friends to invite successful integration will have a chance to get rich site, inviting the more, the more points';
 // Entry
-$_['entry_email'] = 'Email Address:';
+$_['entry_email'] = 'E-mail:';
 
-$_['entry_invite'] = 'invitation link:';
+$_['entry_invite'] = 'Invitation Link:';
 
 // Error
 $_['error_email'] = 'Warning: E-mail address can not be empty!';

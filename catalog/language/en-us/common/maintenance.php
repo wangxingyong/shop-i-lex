@@ -1,9 +1,9 @@
 <?php
 // Heading 
-$_['heading_title'] = 'system maintenance';
+$_['heading_title'] = 'System Maintenance';
 
 // Text
-$_['text_maintenance'] = 'system maintenance';
+$_['text_maintenance'] = 'System Maintenance';
 $_['text_message'] = '<h1 style="text-align:center;"> now ongoing system maintenance. <br/> we will soon be the end of this maintenance, please visit this site again later. </h1> ';
 
 

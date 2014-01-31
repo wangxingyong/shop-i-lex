@@ -61,7 +61,7 @@
       <tr>
         <td><?php echo $text_rating; ?></td>
         <?php foreach ($products as $product) { ?>
-        <td><img src="catalog/view/theme/default/image/stars-<?php echo $products[$product['product_id']]['rating']; ?>.png" alt="<?php echo $products[$product['product_id']]['reviews']; ?>" /><br />
+        <td><img src="catalog/view/theme/default/image/stars-<?php echo $products[$product['product_id']]['rating']; ?>.png" /><br />
           <?php echo $products[$product['product_id']]['reviews']; ?></td>
         <?php } ?>
       </tr>

@@ -5,9 +5,9 @@ $_['heading_title'] = 'Contact Us';
 // Text
 $_['text_location'] = 'Contact Details';
 $_['text_contact'] = 'Feedback';
-$_['text_address'] = 'address:';
+$_['text_address'] = 'Address:';
 $_['text_email'] = 'Email:';
-$_['text_telephone'] = 'telephone:';
+$_['text_telephone'] = 'Telephone:';
 $_['text_fax'] = 'Fax:';
 $_['text_message'] = '<p> your message has been sent </p>!';
 

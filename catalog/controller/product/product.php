@@ -122,11 +122,11 @@ class ControllerProductProduct extends Controller {
 				$url .= '&filter_category_id=' . $this->request->get['filter_category_id'];
 			}
 												
-			$this->data['breadcrumbs'][] = array(
-				'text'      => $product_info['name'],
-				'href'      => $this->url->link('product/product', $url . '&product_id=' . $this->request->get['product_id']),
-				'separator' => $this->language->get('text_separator')
-			);			
+//			$this->data['breadcrumbs'][] = array(
+//				'text'      => $product_info['name'],
+//				'href'      => $this->url->link('product/product', $url . '&product_id=' . $this->request->get['product_id']),
+//				'separator' => $this->language->get('text_separator')
+//			);
 			
 			if(isset($product_info['meta_title']))
 				$this->document->setTitle($product_info['meta_title']!=''?$product_info['meta_title']:$product_info['name']);
@@ -153,6 +153,7 @@ class ControllerProductProduct extends Controller {
             if($product_info['dx_url']){
                 $this->data['dx_url'] = $product_info['dx_url'];
             }
+
 			$this->data['reward'] = $product_info['reward'];
 			$this->data['points'] = $product_info['points'];
 			
@@ -399,7 +400,7 @@ class ControllerProductProduct extends Controller {
 				'href'      => $this->url->link('product/product', $url . '&product_id=' . $product_id),
         		'separator' => $this->language->get('text_separator')
       		);			
-		
+
       		$this->document->setTitle($this->language->get('text_error'));
 
       		$this->data['heading_title'] = $this->language->get('text_error');

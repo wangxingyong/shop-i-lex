@@ -14,6 +14,7 @@
   <?php } ?>
   <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="invite">
     <p><?php echo $text_invite_description; ?></p>
+    <br/>
     <h2><?php echo $text_your_email; ?></h2>
     <div class="content">
       <table class="form">

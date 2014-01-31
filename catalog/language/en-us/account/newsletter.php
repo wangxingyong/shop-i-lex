@@ -4,11 +4,11 @@ $_['heading_title'] = 'Subscribe to this site News';
 
 // Text
 $_['text_account'] = 'My Account';
-$_['text_newsletter'] = 'subscription status';
-$_['text_success'] = 'success: You have updated subscription features';
+$_['text_newsletter'] = 'Subscription Status';
+$_['text_success'] = 'success: You have updated subscription features !';
 
 // Entry
-$_['entry_newsletter'] = 'Subscribe:!';
+$_['entry_newsletter'] = 'Subscribe:';
 
 
 // <?php

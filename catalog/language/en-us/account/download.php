@@ -6,11 +6,11 @@ $_['heading_title'] = 'Download commodities';
 $_['text_account'] = 'My Account';
 $_['text_downloads'] = 'Download commodities';
 $_['text_order'] = 'Order NO:';
-$_['text_date_added'] = 'added:';
-$_['text_name'] = 'name:';
+$_['text_date_added'] = 'Added:';
+$_['text_name'] = 'Name:';
 $_['text_remaining'] = 'Note:';
-$_['text_size'] = 'specification:';
-$_['text_download'] = 'download';
+$_['text_size'] = 'Specification:';
+$_['text_download'] = 'Download';
 $_['text_empty'] = 'You do not have purchased downloadable goods';
 
 

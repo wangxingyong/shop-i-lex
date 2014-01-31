@@ -1,7 +1,7 @@
 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
 <div id="content"><?php echo $content_top; ?>
   <div class="breadcrumb">
-    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+      &raquo; <?php foreach ($breadcrumbs as $breadcrumb) { ?>
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
@@ -42,6 +42,7 @@
   <?php if ($products) { ?>
   <div class="product-filter">
     <div class="display"><b><?php echo $text_display; ?></b> <?php echo $text_list; ?> <b>/</b> <a onclick="display('grid');"><?php echo $text_grid; ?></a></div>
+    <div class="product_compare"><a href="<?php echo $compare; ?>" id="compare_total"><?php echo $text_compare; ?></a></div>
     <div class="limit"><b><?php echo $text_limit; ?></b>
       <select onchange="location = this.value;">
         <?php foreach ($limits as $limits) { ?>
@@ -65,7 +66,6 @@
       </select>
     </div>
   </div>
-  <div class="product-compare"><a href="<?php echo $compare; ?>" id="compare_total"><?php echo $text_compare; ?></a></div>
   <div class="product-list">
     <?php foreach ($products as $product) { ?>
     <div class="product">

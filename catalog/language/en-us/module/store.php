@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title'] = 'select stores';
+$_['heading_title'] = 'Select Stores';
 
 // Text
-$_['text_default'] = 'default';
+$_['text_default'] = 'Default';
 $_['text_store'] = 'Please select the store you want to access';
 
 

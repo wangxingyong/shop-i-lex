@@ -5,10 +5,10 @@ $_['heading_title'] = 'My Reward Points';
 // Column
 $_['column_date_added'] = 'Date';
 $_['column_description'] = 'Description';
-$_['column_points'] = 'bonus points count';
+$_['column_points'] = 'Bonus points count';
 
 // Text
-$_['text_account'] = 'account';
+$_['text_account'] = 'Account';
 $_['text_reward'] = 'Reward Points';
 $_['text_total'] = 'My reward is the total number of points:';
 $_['text_empty'] = 'You have not yet had access to bonus points';

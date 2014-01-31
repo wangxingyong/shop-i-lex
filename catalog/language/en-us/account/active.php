@@ -1,6 +1,6 @@
 <?php
 
-$_['success'] = 'activation success';
+$_['success'] = 'Activation Success';
 
 
 //

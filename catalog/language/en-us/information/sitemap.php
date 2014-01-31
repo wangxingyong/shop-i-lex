@@ -5,15 +5,15 @@ $_['heading_title'] = 'Site Map';
 // Text
 $_['text_special'] = 'Special Offers';
 $_['text_account'] = 'My Account';
-$_['text_edit'] = 'account Information';
-$_['text_password'] = 'password';
-$_['text_address'] = 'address Book';
-$_['text_history'] = 'Order History';
-$_['text_download'] = 'Download commodities';
-$_['text_cart'] = 'cart';
+$_['text_edit'] = 'Account Information';
+$_['text_password'] = 'Password';
+$_['text_address'] = 'Address Book';
+$_['text_history'] = 'Order List';
+$_['text_download'] = 'Download Commodities';
+$_['text_cart'] = 'Shopping Cart';
 $_['text_checkout'] = 'Checkout';
 $_['text_search'] = 'Search';
-$_['text_information'] = 'information center';
+$_['text_information'] = 'Information Center';
 $_['text_contact'] = 'Contact us';
 
 

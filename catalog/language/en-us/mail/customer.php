@@ -12,7 +12,7 @@ $_['text_thanks'] = 'Thank you ,';
 $_['text_reward_subject'] = '%s - bonus points';
 $_['text_reward_received'] = 'you receive bonus points %s !';
 $_['text_reward_total'] = 'You are now a total of %s Reward Points';
-$_['text_reward_system'] = 'system presented - invite Friends Sign success';
+$_['text_reward_system'] = 'System presented - invite Friends Sign success';
 
 
 // <?php

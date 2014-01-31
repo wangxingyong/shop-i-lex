@@ -1,41 +1,41 @@
 <?php
 // Heading
-$_['heading_title'] = 'Order History';
+$_['heading_title'] = 'Order List';
 
 // Text
 $_['text_account'] = 'Account';
-$_['text_order'] = 'order information';
+$_['text_order'] = 'Order Information';
 $_['text_order_detail'] = 'Order Details';
-$_['text_invoice_no'] = 'invoice number :';
-$_['text_order_id'] = 'order number :';
-$_['text_status'] = 'status :';
-$_['text_date_added'] = 'Order Time :';
-$_['text_customer'] = 'Member :';
+$_['text_invoice_no'] = 'Invoice Number :';
+$_['text_order_id'] = 'Order Number:';
+$_['text_status'] = 'Status :';
+$_['text_date_added'] = 'Order Date:';
+$_['text_customer'] = 'User :';
 $_['text_shipping_address'] = 'Delivery address';
-$_['text_shipping_method'] = 'freight way :';
-$_['text_payment_address'] = 'billing address';
-$_['text_payment_method'] = 'payment:';
-$_['text_products'] = 'product :';
+$_['text_shipping_method'] = 'Freight way :';
+$_['text_payment_address'] = 'Billing address';
+$_['text_payment_method'] = 'Payment:';
+$_['text_products'] = 'Numbers :';
 $_['text_total'] = 'Total :';
-$_['text_comment'] = 'order notes';
-$_['text_history'] = 'Order History';
-$_['text_empty'] = 'You have not ordered through the shop goods !';
+$_['text_comment'] = 'Order Notes';
+$_['text_history'] = 'Order List';
+$_['text_empty'] = 'You also didn\'t order our goods!';
 $_['text_error'] = 'Can not find the relevant order !';
-$_['text_express'] = 'courier';
-$_['text_express_no'] = 'express a single number';
-$_['text_shipping_express'] = 'Delivery information';
-$_['text_action'] = 'operation';
-$_['text_selected'] = 'Please select ...';
+$_['text_express'] = 'Express';
+$_['text_express_no'] = 'Number';
+$_['text_shipping_express'] = 'Delivery Information';
+$_['text_action'] = 'Operation';
+$_['text_selected'] = 'Please Select ...';
 
-$_['button_reorder'] = 'payment';
+$_['button_reorder'] = 'Payment';
 // Column
-$_['column_name'] = 'name';
-$_['column_model'] = 'models';
-$_['column_quantity'] = 'number';
-$_['column_price'] = 'price';
+$_['column_name'] = 'Product Name';
+$_['column_model'] = 'Models';
+$_['column_quantity'] = 'Quantity';
+$_['column_price'] = 'Price';
 $_['column_total'] = 'Total';
 $_['column_date_added'] = 'Order Date';
-$_['column_status'] = 'status';
+$_['column_status'] = 'Status';
 $_['column_comment'] = 'Note';
 
 // Error

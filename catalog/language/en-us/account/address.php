@@ -3,26 +3,26 @@
 $_['heading_title'] = 'Address Book';
 
 // Text
-$_['text_account'] = 'my account';
-$_['text_address_book'] = 'address Book';
+$_['text_account'] = 'My Account';
+$_['text_address_book'] = 'Address Book';
 $_['text_edit_address'] = 'your personal information';
-$_['text_insert'] = 'success into your address';
+$_['text_insert'] = 'Address successfully added!';
 $_['text_update'] = 'your address has been updated';
-$_['text_delete'] = 'your address has been canceled';
+$_['text_delete'] = 'your address has been deleted';
 
 // Entry
-$_['entry_firstname'] = 'your Name :';
-$_['entry_lastname'] = 'Your last name :';
-$_['entry_mobile'] = 'phone :';
-$_['entry_phone'] = 'telephone :';
-$_['entry_company'] = '; Company Address :';
-$_['entry_address_1'] = 'address :';
-$_['entry_address_2'] = 'address :';
-$_['entry_postcode'] = 'Postal Code :';
-$_['entry_city'] = 'city :';
-$_['entry_country'] = 'Country :';
+$_['entry_firstname'] = 'First Name:';
+$_['entry_lastname'] = 'Last Name :';
+$_['entry_mobile'] = 'Phone:';
+$_['entry_phone'] = 'Telephone:';
+$_['entry_company'] = 'Company Address:';
+$_['entry_address_1'] = 'Address 1:';
+$_['entry_address_2'] = 'Address 2:';
+$_['entry_postcode'] = 'Postal Code:';
+$_['entry_city'] = 'City:';
+$_['entry_country'] = 'Country:';
 $_['entry_zone'] = 'Region / State:';
-$_['entry_default'] = 'default address :';
+$_['entry_default'] = 'Default Address:';
 
 // Error
 $_['error_delete'] = 'Warning : You must fill in at least one address!';
@@ -32,7 +32,7 @@ $_['error_lastname'] = 'last name must be between 1-32 characters !';
 $_['error_address_1'] = 'addresses must be between 1-128 characters !';
 $_['error_postcode'] = 'Code must between 2-10 characters !';
 $_['error_city'] = 'Please select a city !';
-$_['error_mobile'] = 'phones can not be empty !';
+$_['error_mobile'] = 'Phone can not be empty !';
 $_['error_country'] = 'Please select a country !';
 $_['error_zone'] = 'Please select a region / province !';
 

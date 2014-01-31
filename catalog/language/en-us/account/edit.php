@@ -1,17 +1,32 @@
 <?php
-// Heading
-$_['heading_title'] = 'Download commodities';
+//Heading
+$_['heading_title'] = 'Account Information';
 
-// Text
+//Text
 $_['text_account'] = 'My Account';
-$_['text_downloads'] = 'Download commodities';
-$_['text_order'] = 'Order NO:';
-$_['text_date_added'] = 'added:';
-$_['text_name'] = 'name:';
-$_['text_remaining'] = 'Note:';
-$_['text_size'] = 'specification:';
-$_['text_download'] = 'download';
-$_['text_empty'] = 'You do not have purchased downloadable goods';
+$_['text_edit'] = 'Modify The Information';
+$_['text_your_details'] = 'My Details';
+$_['text_success'] = 'Success: Your account has been updated.';
+$_['text_message'] = 'Please fill in the following information in order to make better use of our website. If you have any questions , please <a href="%s"> Contact Us </ a> ';
+
+
+//Entry
+$_['entry_name'] = 'Username:';
+$_['entry_firstname'] = 'First Name:';
+$_['entry_email'] = 'E-mail:';
+$_['entry_telephone'] = 'Tel:';
+$_['entry_fax'] = 'Fax Number:';
+
+//Button
+$_['button_continue'] = 'Save';
+
+//Error
+$_['error_exists'] = 'Warning: The email address is already registered , please e-mail for a !';
+$_['error_name'] = 'Username must be between 1-32 characters !';
+$_['error_firstname'] = 'name must be between 1-32 characters !';
+$_['error_lastname'] = 'surnames must be between 1-32 bytes !';
+$_['error_email'] = 'Invalid email address !';
+$_['error_telephone'] = 'phone numbers must be between 3-32 characters !';
 
 
 // // Heading

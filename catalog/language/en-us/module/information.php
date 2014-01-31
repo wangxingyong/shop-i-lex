@@ -1,10 +1,10 @@
 <?php
 // Heading
-$_['heading_title'] = 'information center';
+$_['heading_title'] = 'Information Center';
 
 // Text
 $_['text_contact'] = 'Contact Us';
-$_['text_sitemap'] = 'site Map';
+$_['text_sitemap'] = 'Site Map';
 
 
 // <?php

@@ -2,7 +2,7 @@
 $_['heading_title'] = 'Your order has been successfully submitted!';
 
 // Text
-$_['text_customer'] = '<p> your order has been successfully submitted, we will deal with in the first time! </p> <p> You can go to <a href="%s"> my account </a> to view order history, click <a href="%s"> Order History </a>. </p> <p> if you have any questions or comments, please contact <a href="%s"> we </a> </p> <p> thank you for your order! </p> ';
+$_['text_customer'] = '<p> your order has been successfully submitted, we will deal with in the first time! </p> <p> You can go to <a href="%s"> my account </a> to view order list, click <a href="%s"> Order List </a>. </p> <p> if you have any questions or comments, please contact <a href="%s"> we </a> </p> <p> thank you for your order! </p> ';
 $_['text_guest'] = '<p> your order has been successfully submitted, we will deal with in the first time! </p> <p> If you have any questions or comments, please <a href = "% s "> Contact Us </a> </p> <p> thank you for your order !</p> ';
 $_['text_basket'] = 'cart';
 $_['text_checkout'] = 'checkout';

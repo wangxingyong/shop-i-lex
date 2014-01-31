@@ -14,23 +14,23 @@ $_['text_order'] = 'View history orders';
 $_['text_download'] = 'Download commodities';
 $_['text_reward'] = 'My Points';
 $_['text_return'] = 'View My returned requirements';
-$_['text_transaction'] = 'my trading records';
+$_['text_transaction'] = 'Transactions';
 $_['text_transaction_total'] = 'My balance';
 $_['text_newsletter'] = 'Subscribe / unsubscribe consultation';
-$_['text_invite'] = 'invite Friends';
-$_['text_welcome'] = 'Welcome ,%s';
+$_['text_invite'] = 'Invite Friends';
+$_['text_welcome'] = 'Welcome %s';
 $_['text_contact_info'] = 'Contact Information';
 
 // Text
-$_['text_order'] = 'order information';
+$_['text_order'] = 'Order Information';
 $_['text_order_detail'] = 'Order Details';
-$_['text_order_id'] = 'order number :';
-$_['text_status'] = 'status :';
-$_['text_date_added'] = 'Order date :';
-$_['text_products'] = 'product :';
-$_['text_total'] = 'Total :';
-$_['text_empty'] = 'You have not ordered off shop goods !';
-$_['text_action'] = 'operation';
+$_['text_order_id'] = 'Order Number';
+$_['text_status'] = 'Status';
+$_['text_date_added'] = 'Order Date';
+$_['text_products'] = 'Quantity';
+$_['text_total'] = 'Amount';
+$_['text_empty'] = 'You also didn\'t order our goods!';
+$_['text_action'] = 'Operation';
 //
 
 

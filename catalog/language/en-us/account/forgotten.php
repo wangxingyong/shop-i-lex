@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title'] = 'Forgot Password?';
+$_['heading_title'] = 'Forgot Password ?';
 
 // Text
 $_['text_account'] = 'My Account';
-$_['text_forgotten'] = 'forgot password';
+$_['text_forgotten'] = 'Forgot Password';
 
 $_['text_email'] = 'Please enter your e-mail address when filling out the registration account, click Continue. Your new password will be sent to you via e-mail!';
 $_['text_success'] = 'Success: The new password has been sent to your mailbox, please check!';
 
 // Entry
-$_['entry_email'] = 'Registered Mail:';
+$_['entry_email'] = 'E-Mail:';
 
 // Error
-$_['error_email'] = 'Warning: This e-mail address does not exist, make sure you enter the correct after registering mailbox retry';
-$_['error_email_required'] = 'Warning:!! Please fill out the registration mail';
+$_['error_email'] = 'Warning: This e-mail address does not exist, make sure you enter the correct after registering mailbox retry!';
+$_['error_email_required'] = 'Warning: Please fill out the registration mail !';
 
 
 // <?php

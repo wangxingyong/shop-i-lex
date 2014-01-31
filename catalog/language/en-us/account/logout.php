@@ -3,9 +3,9 @@
 $_['heading_title'] = 'Logout';
 
 // Text
-$_['text_message'] = '<p> You have successfully quit your account. </p> <p> your shopping cart has been saved, the next landing you can also see the items remain in the shopping cart </p>';
-$_['text_account'] = 'account';
-$_['text_logout'] = 'exit';
+$_['text_message'] = '<p> You have successfully logout your account. </p> <p> your shopping cart has been saved, the next landing you can also see the items remain in the shopping cart </p>';
+$_['text_account'] = 'Account';
+$_['text_logout'] = 'Exit';
 
 
 // <?php

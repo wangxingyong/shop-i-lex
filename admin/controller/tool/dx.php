@@ -38,7 +38,7 @@ class ControllerToolDx extends Controller
     {
         $this->load->model('catalog/product');
         if (is_null($template_product_id)) {
-            $template_product_id = '55177';
+            $template_product_id = '8';
         }
         $this->data = $this->model_catalog_product->cloneProduct($template_product_id);
         $this->data['dxUrl'] = $dxUrl;

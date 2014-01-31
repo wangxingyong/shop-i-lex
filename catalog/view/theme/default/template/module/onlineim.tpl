@@ -14,7 +14,9 @@
    					 <li><a href="skype:<?php echo $im['account'];?>?call"><img src="http://mystatus.skype.com/smallicon/<?php echo $im['account'];?>" /><?php echo $im['text'];?></a>	</li>
         	<?php } ?>
         	<?php if ($im['type']=='wangwang') { ?>
-   					 <li><a href="http://amos1.taobao.com/msg.ww?v=2&uid=<?php echo $im['account'];?>"><img src="http://amos1.taobao.com/online.ww?v=2&uid=<?php echo $im['account'];?>&s=2" /><?php echo $im['text'];?></a>	</li>
+                    <li>
+                        <a class="alitalk-link" data-uid="4213025@qq.com" target="_blank" href="http://amos.alicdn.com/msg.aw?v=2&uid=4213025%40qq.com&site=enaliint&s=22&charset=UTF-8" style="text-decoration:none" ><img border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=4213025%40qq.com&site=enaliint&s=22&charset=UTF-8" alt="Leave me a message" style="border:none; vertical-align:middle;" /> <span style="font:700 11px/12px tahoma; color:#0066cc;">XiaoQin.He</span></a>
+                    </li>
         	<?php } ?>
         	
          <?php } ?>

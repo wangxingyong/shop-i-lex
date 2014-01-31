@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Most Viewed goods';
+$_['heading_title'] = 'Most Viewed';
 
 // Text
 $_['text_reviews'] = 'Based on %s reviews.';

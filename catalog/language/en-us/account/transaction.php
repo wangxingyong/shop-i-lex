@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title'] = 'my balance records';
+$_['heading_title'] = 'My Balance Records';
 
 // Column
-$_['column_date_added'] = 'date';
+$_['column_date_added'] = 'Date';
 $_['column_description'] = 'Description';
 $_['column_amount'] = 'Total (%s)';
 
 // Text
-$_['text_account'] = 'account';
-$_['text_transaction'] = 'I balance';
+$_['text_account'] = 'Account';
+$_['text_transaction'] = 'My Balance';
 $_['text_total'] = 'My balance is:';
 $_['text_empty'] = 'You have no balance recharge and use of records';
 

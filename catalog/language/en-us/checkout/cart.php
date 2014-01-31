@@ -1,31 +1,31 @@
 <?php
 
 // Heading
-$_['heading_title'] = 'shopping cart product';
+$_['heading_title'] = 'Shopping Cart';
 
 // Text
 $_['text_weight'] = 'Weight :';
 $_['text_points'] = 'Points :%s';
 $_['text_items'] = '%s item (s) - %s';
-$_['text_success'] = 'Successfully added goods <a href="%s">%s </a> <a href="%s"> to your shopping cart </a>!';
+$_['text_success'] = 'Successfully added goods "<a href="%s">%s </a>" to your <a href="%s">Shopping Cart </a>!';
 $_['text_empty'] = 'Your shopping cart is empty !';
-$_['text_login'] = 'Note: Please <a href="%s"> login </a> or <a href="%s"> Create new account </a> to see the price !';
+$_['text_login'] = 'Note: Please <a href="%s">Login</a> or <a href="%s"> Register an Account </a>!';
 
 // Column
-$_['column_remove'] = 'delete';
-$_['column_image'] = 'image';
-$_['column_name'] = 'name';
-$_['column_model'] = 'models';
-$_['column_quantity'] = 'number';
-$_['column_price'] = 'price';
+$_['column_remove'] = 'Delete';
+$_['column_image'] = 'Image';
+$_['column_name'] = 'Name';
+$_['column_model'] = 'Models';
+$_['column_quantity'] = 'Number';
+$_['column_price'] = 'Price';
 $_['column_total'] = 'Total';
 
-$_['text_remove'] = 'delete';
+$_['text_remove'] = 'Delete';
 $_['text_minus'] = '-1';
 $_['text_plus'] = '+1';
 
 // Error
-$_['error_stock'] = 'goods are marked with *** indicates insufficient quantity or no inventory !';
+$_['error_stock'] = 'Note: Goods marked with *** indicates insufficient quantities or no inventory, please contact our service personnel!';
 $_['error_minimum'] = '%s MOQ is %s!';
 $_['error_required'] = '%s requirements !';
 

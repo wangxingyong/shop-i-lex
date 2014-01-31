@@ -5,14 +5,14 @@ $_['heading_title'] = 'Use Reward Points (valid %s)';
 // Text
 $_['text_reward'] = 'Reward Points (%s)';
 $_['text_order_id'] = 'Order Number: #%s';
-$_['text_success'] = 'success: You have successfully used the bonus points!';
+$_['text_success'] = 'You have successfully used the bonus points!';
 
 // Entry
-$_['entry_reward'] = 'use of bonus points (up to %s):';
+$_['entry_reward'] = 'Use of bonus points (up to %s):';
 
 // Error
 $_['error_empty'] = 'Warning: Please enter the number of reward points you need to use!';
-$_[!'error_points'] = 'Warning: You Zhe no use reward points %s!';
+$_[!'error_points'] = 'Warning: You do not have to use bonus points %s!';
 $_['error_maximum'] = 'Warning: You can use the maximum number of bonus points %s!';
 
 

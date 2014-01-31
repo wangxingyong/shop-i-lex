@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title'] = 'Use discount coupon';
+$_['heading_title'] = 'Use Coupon';
 
 // Text
-$_['text_coupon'] = 'discount vouchers (%s)';
-$_['text_success'] = 'success:! You have successfully use discount vouchers';
+$_['text_coupon'] = 'Coupon (%s)';
+$_['text_success'] = 'You have successfully use the Coupon!';
 
 // Entry
-$_['entry_coupon'] = 'Please enter your discount coupon:';
+$_['entry_coupon'] = 'Please enter the coupon code:';
 
 // Error
-$_['error_coupon'] = 'Warning: discount coupon has expired, or has expired, or has exceeded its frequency of use';
+$_['error_coupon'] = 'Warning: Coupons have expired or have exceeded their frequency of use';
 
 
 // <?php

@@ -79,16 +79,29 @@
 <h2><?php echo $text_returning_customer; ?></h2>
 <form action="<?php echo $action; ?>" method="post"
 	enctype="multipart/form-data" id="login">
-<div style="width: 300px; margin: 0 auto;"><b><?php echo $entry_email; ?></b><br />
-<input type="text" name="email" value="" class="span4" /><br />
-<br />
-<b><?php echo $entry_password; ?></b><br />
-<input type="password" name="password" value="" class="span4" /><br />
-<br />
-<div class="left"><a onclick="$('#login').submit();" class="button"><span><?php echo $button_login; ?></span></a>
-<a href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a></div>
-	<?php if ($redirect) { ?> <input type="hidden" name="redirect"
-	value="<?php echo $redirect; ?>" /> <?php } ?></div>
+
+    <table class="form">
+        <tr>
+            <td><span class="required">*</span> <?php echo $entry_email; ?></td>
+            <td><input type="text" name="email" value="" class="input-xxlarge"/></td>
+        </tr>
+        <tr>
+            <td><span class="required">*</span> <?php echo $entry_password; ?></td>
+            <td><input type="password" name="password" value="" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <div>
+                    <a onclick="$('#login').submit();" class="button highlight"><span><?php echo $button_login; ?></span></a>
+                    <a href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a>
+                </div>
+                <?php if ($redirect) { ?>
+                        <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
+                <?php } ?>
+            </td>
+        </tr>
+    </table>
 </form>
 </div>
 </div>

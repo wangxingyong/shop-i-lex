@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title'] = 'estimates freight &amp; taxes';
+$_['heading_title'] = 'Estimates freight &amp; taxes';
 // Text 
 $_['text_shipping'] = 'Please enter your shipping destination.';
 $_['text_success'] = 'Success: Your Estimated Shipping has successfully!';
